@@ -1,0 +1,1 @@
+$(window).on("scroll touchmove",function(){var o=$(".Project-wrap-1"),t=o.height()-150,l=$(".projects-tmp").height();$(".header-wrap").toggleClass("tiny",$(document).scrollTop()>t),$("html").toggleClass("show-scrollbar",$(document).scrollTop()>0),$(".Project-wrap-3").toggleClass("tofooter",$(document).scrollTop()>l)});
