@@ -2095,6 +2095,24 @@ header .menu-wrap a:last-child {
   text-align: center;
   left: calc(50vw - 55px); }
 
+#pjf01 {
+  cursor: pointer; }
+
+#pjf02 {
+  cursor: pointer; }
+
+#pjf03 {
+  cursor: pointer; }
+
+#pjf04 {
+  cursor: pointer; }
+
+#pjf05 {
+  cursor: pointer; }
+
+#pjf06 {
+  cursor: pointer; }
+
 .Project-wrap-1 .scroll-btn .scroll-word {
   margin-top: 15px;
   letter-spacing: 1px;

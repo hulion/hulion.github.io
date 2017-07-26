@@ -156,6 +156,12 @@ $(function(){
             window.location.href = 'project-5.html';
         },1000);
     });
+    $("#pjf06").click(function(){
+        $(".loading-block").addClass('active');
+        setTimeout(function(){
+            window.location.href = 'project-6.html';
+        },1000);
+    });
     // 首頁大按鈕
     $("#view-btn-letou").click(function(){
         $(".kv-wrap .banner-wrap").removeClass('active');
