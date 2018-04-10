@@ -1,0 +1,418 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name=viewport content="width=device-width, initial-scale=1">
+<meta name="description" content="Cubi is a communicator for kids to express their feeling freely with people they love. It has Voice messages, GPS, friend making and so on.">
+
+<title>Cubi - The Star Trek-like Communicator for Smart Kids</title>
+
+<link rel="image_src" href="http://heycubi.com/imgs/fbPhoto.jpg"/>
+<link rel="icon" href="http://heycubi.com/imgs/icon.gif" type="image/gif" >
+
+<link href="css/css_reset.css" rel="stylesheet" type="text/css">
+
+<script src="js/init.js" type="text/javascript"></script>
+
+</head>
+
+<!-- Konami Code : [ press ↑ ↑ ↓ ↓ ← → ←　→ B A ] ,Maybe something will be happen!! XD -->
+<!-- 科拿米秘技 : [ 按 上 上 下 下 左 右 左 右 B A ] ,可能會有些什麼事情發生喔!! XD -->
+
+<body>
+	
+	<!-- email pop -->
+    <section id="emailPopBox">
+    	<div id="emailBlock">
+          <p>Cubi’s crowdfunding campaign is currently reviewing by Kickstarter.<br>Please leave your contact information for further notice and updates.</p>
+          <ul>
+              <li><span>NAME</span> <input class="emailBox_name input_box" type="text"></li>
+              <li><span>EMAIL</span> <input class="emailBox_email input_box" type="text"></li>
+              <li><span>MESSAGES</span> <textarea class="emilBox_msg input_box"></textarea></li>
+          </ul>
+          <input type="button" value="OK,SEND!" id="emailBox_send_btn">
+          <a id="emailBox_close_btn"><span>X</span> CLOSE</a>
+      </div>
+      <div class="msk_black"></div>
+    </section>
+
+	<div id="konamiCodeBox"></div>
+	
+    <header>
+    
+    	<h1 id="logo">CUBI<span id="logo_white"></span><span id="logo_blue"></span></h1>
+        
+    	<nav id="mainMenu">
+       		<div id="mainMenu_icon">
+				<span></span>
+            	<span></span>
+				<span></span>
+           </div>
+           <ul id="mainMenu_block">
+           	<li><h2><a id="mainMenu_01">What’s Cubi</a></h2></li>
+           	<li><h2><a id="mainMenu_02">Who’s Cubi For</a></h2></li>
+           	<li><h2><a id="mainMenu_03">What can Cubi Do</a></h2></li>
+            <li><h3><a class="linkToKick"><img src="imgs/kick_icon_small.png" width="18"> SUPPORT US</a></h3></li>
+            <li><h3><a class="linkToBeLuvv"><img src="imgs/beluvv_icon_small.png" width="18"> BeLuvv.com</a></h3></li>
+           	<li><span><a class="shareToFb">F</a></span><span><a class="shareToTt">T</a></span><span id="menuConatcUs"><a class="linkToContact">_</a></span></li>
+           </ul>
+    	</nav> 
+           
+    </header>
+    
+    <!-- bottom btn -->
+    <section id="share_btn">
+    	 <nav>
+            <a id="share_btn_fb" class="shareToFb">F</a>
+            <a id="share_btn_tt" class="shareToTt">T</a>
+            <a id="contactUs_btn" class="linkToContact">_</a>
+        </nav>
+        <a id="kick_btn" class="linkToKick"></a>
+        <a id="beluvv_btn" class="linkToBeLuvv"></a>
+    </section>
+    
+    <!-- video block -->
+    <section id="cubi_pageTop" class="cubi_pageBox">
+       <div id="cubi_videoFrame">
+       		<div id="cubi_scrollDown"></div>
+       		<div id="video_controlbox">
+       			<a id="video_controller"></a>
+           	<div id="video_blackBg"></div>
+            </div>
+    		<div id="ytplayer"></div>
+		</div>
+		<div id="triggerElememt01" class="spacer">01</div>
+       <div id="triggerElememt00" class="spacer">000</div>
+    </section>
+    
+    <!-- home block / what is cubi? -->	
+    <section id="cubi_home_main" class="cubi_pageBox">
+    	
+        <div id="triggerElememt01s" class="spacer">01s</div>
+        <div id="triggerElememt01t" class="spacer">01t</div>
+        
+        <h2 class="txtWhite">What is CUBI?</h2>
+        <h4 class="txtWhite">A New Way for Children to Communicate. Cubi is a wearable device in a watch form which packed with multiple functionalities. It can tell time, send and receive voice messages, build-in voice changers, instant emergency alert feature and works as a GPS locator to ease parent’s greatest fear.</h4>
+        <div id="homeMain_cubi_front">
+        	<div id="cubi_eyeAni"></div>
+        </div>
+       
+    </section>
+        
+    <!-- page01 block / who's cubi for? -->
+    <section id="cubi_page01_main" class="cubi_pageBox">
+    
+    	<div id="triggerElememt02" class="spacer">02</div>
+		<div id="triggerElememt03" class="spacer">03</div>
+        <div id="triggerElememt03s" class="spacer">03s</div>
+		<div id="triggerElememt04" class="spacer">04</div>
+        
+    	<article id="cubi_page01_article">
+       		
+           <h2 class="txtBlue">Who’s Cubi for?</h2>
+           <h3 class="txtBlue">Crafted for children from age 3 ~ 10.</h3>
+           <span>*Battery life on stand-by will be 24-hours and continuous using is estimated at around 5-hours.</span>
+           <p class="txtBlue">Cubi is a communicator for kids. The fundamental idea is to build-up and strengthen the connection within family. Allows children to express their feeling freely with people they love. <br><br>More so, communicating between peers has been a huge part of our daily life. We adults gets to stay informed with people we know and people we love at any given time. As for children, especially when they are not allow to carry a phone yet, it’s not as easy as they wish it would be.<br><br>Thus, we’ve created Cubi. That is easy to use, comfortable to wear and packed with all the necessary tools to serve their everyday needs.<br><br>Last but not least, Cubi comes equipped with various protecting functions to ease parents worries. Plus it also comes with several marvelous features made especially for children.</p>
+           
+           <section id="cubi_page01_imgSow">
+                <a id="page01_arrow_L"></a>
+                <a id="page01_arrow_R"></a>
+                <div id="imgShow_video">
+                    <video autoplay loop poster="imgs/video/imgShow_video.jpg">
+                    	<source src="imgs/video/imgShow_video.webm" type="video/webm">
+                        <source src="imgs/video/imgShow_video.mp4" type="video/mp4">                        
+                    </video>
+                </div>
+           </section>
+           
+           <div id="cubi_boy"></div>
+           
+       </article>
+       
+    </section>
+    
+    <!-- page03 block / voice messages -->
+    <section id="cubi_page03_main" class="cubi_pageBox">
+    	
+		<div id="triggerElememt06" class="spacer">06</div>
+        <div id="triggerElememt06s" class="spacer">06s</div>
+        
+        <section id="page03_info">
+        	<article>
+            	<h4 class="txtWhite">Communication - Stay In Touch at All Time.</h4>
+                <p class="txtWhite">Cubi can send and receive voice messages. Allows children to safely venture on their own but have the ability to report back any obstacles or finding on their young journey. The beauty of it is that children can choose their desire timing when sending or receiving to avoid interruption. Both parents and children can also repeatedly listen to any voice messages on their Cubi and smartphone.</p>
+            </article>
+            <div id="page03_cubiIphone">
+                <img src="imgs/mobile_screen/mobileScreen_record.jpg" width="160">
+            </div>
+        </section>
+        
+		<section id="cubi_page03_intro"></section>
+		<div id="cubi_page03_videoD">            
+        	<div id="bgDot"></div>
+        	<video autoplay loop poster="imgs/video_d.jpg">
+                <source src="imgs/video/communication.webm" type="video/webm">
+                <source src="imgs/video/communication.mp4" type="video/mp4">
+           </video>
+        </div>
+    
+    </section>
+    
+    <!-- page04 block / voice changer -->
+    <section id="cubi_page04_main" class="cubi_pageBox">
+    	
+		<div id="triggerElememt07" class="spacer">07</div>
+        <div id="triggerElememt07s" class="spacer">07s</div>
+    	
+        <section id="page04_info">
+        	<section id="page04_infoBox">
+        		<div id="page04_cubiFace"></div>
+                <article>
+                	<h4 class="txtBlue">Entertainment- Fun Time Never Ends</h4>
+                	<p class="txtBlue">Cubi is like a friend who will always join their travel together and conquer the journey as a team and share their every finding right on the spot. We've also installed a wide range of voice changers that would totally impress children’s friends and family.</p>
+                </article>
+            </section>
+        </section>
+    
+    </section>
+    
+    <!-- page05 block / more intro -->
+    <div id="page05_scrollH" style="position:relative; overflow:hidden; ">
+    	
+        <div id="triggerElememt08" class="spacer">08</div>
+        <div id="triggerElememt08s" class="spacer">08s</div>
+        
+        <section id="cubi_page05_main" class="cubi_pageBox">
+        	
+            <!-- menu -->
+        	<nav id="cubi_page05_menu">
+                <li id="page05_menu01"><a>Co-guard</a><span></span></li>
+                <li id="page05_menu02"><a>GPS locator.</a><span></span></li>
+                <li id="page05_menu03"><a>Emergency Alert Button</a><span></span></li>
+                <li id="page05_menu04"><a>Vibration Mode</a><span></span></li>
+                <!-- <li id="page05_menu05"><a>Sim card</a><span></span></li> -->
+                <li id="page05_menu06"><a>Flash Light</a><span></span></li>
+            </nav>
+            
+            <!-- iphone -->
+            <div id="cubi_page05_mobileBox">
+            
+                <div id="page05_cubiIphone" class="cubi_iphone">
+                    <div id="cubi_mobileScreen_page05" class="cubi_mobileScreen">
+                        <ul>
+                            <li><img src="imgs/mobile_screen/mobileScreen_coGuard.jpg" width="160"></li>
+                            <li><img src="imgs/mobile_screen/mobileScreen_gps.jpg" width="160"></li>
+                            <li><img src="imgs/mobile_screen/mobileScreen_sos.jpg" width="160"></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <!-- gps -->
+                <div id="cubi_page05_gpsBlock">
+                    
+                    <div id="gpsBlock_cubi">
+                    	<span id="gps_icon01"></span>
+                        <span id="gps_icon02"></span>
+                    </div>
+                    
+                    <div id="gpsBlock_local01" class="gpsBlock_local">
+                    	<span id="gps_local01_photo"></span>
+                    </div>
+                    
+                    <div id="gpsBlock_local02" class="gpsBlock_local">
+                    	<span id="gps_local02_photo"></span>
+                    </div>
+                    
+                </div>
+                
+                <!-- sos -->
+                <div id="cubi_page05_sosBlock">                
+                	<div id="sos_circle"></div>
+                    <div id="sos_info"></div>                
+                </div>
+                
+            </div>
+        	
+            <!-- content01 -->
+            <section id="cubi_page05_contentBlock" class="page05_blockBox">
+            
+            	<!-- Article -->
+                <article>
+                    <h4 class="txtBlue">GPS locator. Arriving / Leaving Safety Zone</h4>
+                    <p class="txtGray">Parents can not only be more involve with children’s daily activity but also gets to monitor children’s whereabout at all time.</p>
+                </article>
+                
+                <article>
+                    <h4 class="txtBlue">Emergency Alert Button</h4>
+                    <p class="txtGray">Press and hold the Emergency Alert button for 3 seconds, and parent’s phone will receive the emergency message and the current location of the children.</p>
+                </article>
+                
+                <article>
+                    <h4 class="txtBlue">Co-Guard</h4>
+                    <p class="txtGray">Parents can give permission to other family members or trusted friends to all pair up with Cubi on making sure each and everyone you trust can watch your children together.</p>
+                </article>
+                
+                <article>
+                    <h4 class="txtBlue">Vibration Mode</h4>
+                    <p class="txtGray">There is an on-off switch on the side of the Cubi to turn on and off the vibration mode.</p>
+                </article>
+                
+                <!-- <article>
+                    <h4 class="txtBlue">Sim card</h4>
+                    <p class="txtGray">Monthly data plan will be apply to activate Cubi.</p>
+                </article> -->
+                
+                <article>
+                    <h4 class="txtBlue">Flash Light</h4>
+                    <p class="txtWhite">Allows children to explore the world freely when they always carries a torch with them.</p>
+                </article>
+                
+                <!-- co-guard bg -->
+                <div id="page05_coGuardBg"></div>
+                
+                <!-- Vibration Mode bg -->
+                <div id="page05_vibrationBg">
+                	<div id="page05_vibInfo">
+                    	<div id="vibInfo_txt"></div>
+                    	<div id="vibInfo_circle"></div>
+                    </div>
+                </div>
+                
+                <!-- simcard -->
+                <div id="page05_sim">
+                	<div id="page05_simCubiFront"></div>
+                    <div id="page05_simCard"></div>
+                    <div id="page05_simCover"></div>
+                    <div id="page05_simInfo">
+                    	<div id="simInfo_txt"></div>
+                        <div id="simInfo_circle"></div>
+                        <div id="simInfo_arrow"></div>
+                    </div>
+                </div>
+                
+                <!-- flash light bg -->
+                <div id="page05_flashBg">
+                	<div id="page05_flashBg_02"></div>
+                </div>
+                
+                
+            </section>
+        
+        </section>
+    
+    </div>	
+    
+    <!-- page02 block / what cubi do? -->
+    <section id="cubi_page02_main" class="cubi_pageBox">
+    
+    	<div id="triggerElememt05" class="spacer">05</div>
+        <div id="triggerElememt05s" class="spacer">05-2</div>
+    
+    	<article id="cubi_page02_article">
+        
+			<h2 class="txtWhite">More detail..</h2>
+			<ul>
+                <li>
+                	<img src="imgs/cubiimgs/cubi_intro_01.gif" width="200">
+                	<h4 class="txtWhite">Robot Face</h4>
+                	<p class="txtWhite">Cubi has a robot-like watchface which shows you different emotions just like a real robot can interactive with kids.</p>
+                </li>
+                <li>
+                	<img src="imgs/cubiimgs/cubi_intro_02.gif" width="200">
+                	<h4 class="txtWhite">Learn to tell time</h4>
+                	<p class="txtWhite">Cubi can teach children to understand and learn the value of time telling.</p>
+                </li>
+                <li>
+                	<img src="imgs/cubiimgs/cubi_intro_03.gif" width="200">
+                	<h4 class="txtWhite">Meeting New Friends</h4>
+                	<p class="txtWhite">Cubi works as a communicator which will enable children to start having conversation with their peers even when they are not together.</p>
+                </li>
+                <li>
+                	<img src="imgs/cubiimgs/cubi_intro_04.gif" width="200">
+                	<h4 class="txtWhite">Make New Friends</h4>
+                	<p class="txtWhite">With parent’s approval, children can add friends on their Cubi by bumping their device together</p>
+                </li>
+			</ul>
+            
+		</article>
+       
+    </section>   
+    
+    
+    <!-- page06 -->
+    <section id="cubi_page06_main" class="cubi_pageBox">
+    
+    	<div id="triggerElememt09" class="spacer">09</div>
+        <div id="triggerElememt09s" class="spacer">09s</div>
+        
+        <ul id="page06_imgs"></ul>
+        
+        <section id="cubi_page06_bottom">
+        	<article>
+            	<h5><!--“Conversation is king. Content is just something to talk about.” --></h5>
+                <p><!--- Cory Doctorow--></p>
+            </article>
+        	<nav id="cubi_bottom_btn">
+            	<a id="bottom_kick_btn" class="linkToKick"></a>
+				<a id="bottom_contact_btn" class="linkToContact"></a>
+			</nav>
+        </section>
+    
+    </section>
+    
+    <div id="white_bg"></div>
+    
+    <!-- bg canvas -->
+	<canvas id="canvas_cubeBg" width="100%" height="100%"></canvas>
+    
+    <!-- spec ani -->
+    <section id="specAniBox">
+		<div id="specCubi">
+       		<div id="specCubi_videoBox"></div>
+       </div>
+       <article id="specTitle01">
+       		<h5></h5>
+       		<h3></h3>
+       </article>
+      	<article id="specTitle02">
+       		<h4></h4>
+            <div id="specVoteBox">
+            	<a id="specVote_btn"></a>
+                <span><h6></h6><p></p></span>
+            </div>
+       </article>
+       <nav id="spec_btnBox">
+       		<a id="spec_btn_close"></a>
+            <a id="spec_btn_kick"></a>
+       </nav>
+       <div id="specPhotoList"><span></span></div>
+    </section>
+
+</body>
+
+<script src="js/jq/jquery-2.1.1.min.js" type="text/javascript"></script>
+<script src="js/greensock/plugins/CSSPlugin.min.js" type="text/javascript"></script>
+<script src="js/greensock/TweenMax.min.js" type="text/javascript"></script>
+<script src="js/greensock/TimelineMax.min.js" type="text/javascript"></script>
+<script src="js/greensock/plugins/ScrollToPlugin.min.js" type="text/javascript"></script>
+<script src="js/scrollmagic/jquery.scrollmagic.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.3.3.min.js"></script>
+
+<script src="js/cubiBgAni.js" type="text/javascript"></script>
+<script src="js/cubiPageAni.js" type="text/javascript"></script>
+<script src="js/cubi.js" type="text/javascript"></script>
+<script src="js/cubiSpec.js" type="text/javascript"></script>
+
+<script>
+
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-37896544-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</html>

@@ -1,0 +1,158 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (min-width: 360px) and (max-width: 414px) {
+	
+	body{ -webkit-text-size-adjust: 100%; }
+    
+	#share_btn{ display:none; }	
+	.spacer{ display:none; }
+	
+	/* header */
+	header{ height:60px; width:100vw; background-color:rgba(0,0,0,0.6); }
+	
+	#logo_blue{ height:40px; }
+	
+	#mainMenu_icon{ top:18px; right:20px; cursor:pointer; }
+	#mainMenu_icon span{ background-color:#04b0ec; box-shadow:0px 0px 0px rgba(0,0,0,0); }
+	
+	#mainMenu_block{ padding:150px 50px 0 50px; background-color:rgba(0,0,0,0.9); position:absolute; right:-400px; width:250px; height:100vh; z-index:99; }
+	
+	/*cubi bg*/
+	#canvas_cubeBg{ width:0px; height:0px; display:none; }
+	
+	/*video KV*/
+	#cubi_videoFrame{ width:100vw; height:100vh; }
+	#video_controlbox{ display:none; }
+	
+	/*page public*/
+	.cubi_pageBox{ width:100%; overflow:hidden; }
+	.cubi_pageBox h2{ font-size:40px; }
+	.cubi_pageBox h3{ font-size:30px; }
+	.cubi_pageBox h4{ font-size:20px; }
+	.cubi_pageBox p{ font-size:13px; line-height:22px; }
+	
+	/*home*/
+	#cubi_home_main{ min-height:100%; height:auto; padding:0 0 50px 0; }
+	#cubi_home_main h2{ position:relative; width:80%; margin-top:85%; left:10%; top:0%; text-align:center; }
+	#cubi_home_main h4{position:relative; width:80%; left:10%; top:0%; text-align:center; }
+	
+	#homeMain_cubi_front{
+		width:100%; height:100%; position:absolute; left:0%; top:50px;
+		background-size:contain; background-repeat:no-repeat; background-image:url(../imgs/cubiimgs/cubi_01.png);
+	}
+	
+	/* page01 */
+	#cubi_page01_main{ min-height:inherit; padding:0 0 50px 0; background-color:rgba(255,255,255,1); }
+	
+	#cubi_page01_article{ width:90%; display:block; position:relative; margin:50px 0 0 0; top:0px; right:0%; left:5%; z-index:99999; }
+	#cubi_page01_article h2{ margin:0 0 5px 0; font-size:30px; padding:0px 10px; }
+	#cubi_page01_article h3{ margin:0 0 10px 0; font-size:25px; padding:0px 10px; }
+	#cubi_page01_article p{ background-color:rgba(255,255,255,0.9); padding:10px 10px; }
+	
+	#cubi_page01_imgSow{ margin:20px 0 0 0; width:90vw; height:45vw; left:0%; }
+	#cubi_page01_imgSow a{
+		width:17px; height:31px; position:absolute; top:10vh; background-size:contain; z-index:66999;
+	}
+	#page01_arrow_L{ left:10px; background-image:url(../imgs/arrow_L.png); }
+	#page01_arrow_L:hover{ background-image:url(../imgs/arrow_L_ovr.png);  }
+	#page01_arrow_R{ right:10px; background-image:url(../imgs/arrow_R.png); }
+	#page01_arrow_R:hover{ background-image:url(../imgs/arrow_R_ovr.png);  }
+	
+	#cubi_page01_imgSow img{
+		width:100%; height:100%; position:absolute; display:block; top:0px; left:0px;
+	}
+	
+	#cubi_boy{ width:443px; height:931px; position:absolute; top:-22%; left:32%; }
+	
+	/* page02 */
+	#cubi_page02_main{ padding:0 0 50px 0; }
+	
+	#cubi_page02_article{ width:100%; padding:40px 0 0 0; }
+	#cubi_page02_article h2{ display:block; width:90%; margin:0 5% 20px 5%; text-align:center; font-size:40px; }
+	#cubi_page02_article h4{ font-size:30px; }
+	#cubi_page02_article ul{ display:block; margin:20px 0 0 0; }
+	#cubi_page02_article ul li{width:90%; margin:0 5% 20px 5%; text-align:center; }
+	#cubi_page02_article ul li:last-child{ margin:0 5% 20px 5%; }
+	
+	/* page03 */
+	#cubi_page03_main{ height:auto; overflow:hidden; padding:0 0 0 0; }
+	
+	#cubi_page03_videoD{ position:relative; width:100%; height:100px; min-height:200px; min-width:100px; }
+	#bgDot{ display:none; }
+	#cubi_page03_videoD video{ width:100%; height:100%; min-height:100%; min-width:100%; }
+	
+	#page03_info{ width:90%; position:relative; margin:0 5%; padding:30px 0 30px 0; z-index:1111; }
+	#page03_info article{ width:100%; position:relative; display:block; top:0px; left:0px; }
+	#page03_info article h4{ font-size:30px; margin:0 0 5px 0; text-shadow:1px 1px rgba(0,0,0,0); }
+	#page03_info article p{ text-shadow:1px 1px rgba(0,0,0,0); }
+	
+	#page03_cubiIphone{ display:none; }
+	
+	/* page04 */
+	#cubi_page04_main{ height:auto; padding:0 0 80px 0; background-size:160vw; background-position:bottom center; overflow:hidden; }
+	
+	#page04_info{ width:90%; height:500px; position:relative; margin:50px 5% 0 5%; overflow:auto; }
+	#page04_info h4{ font-size:30px; margin:0 0 5px 0; }
+	#page04_infoBox{ width:100%; position:absolute; right:0px; top:0px; }
+	#page04_cubiFace{ width:120px; height:120px; background-size:cover; position:relative; margin:0 auto 10px auto; }
+	#page04_infoBox article{ width:100%; position:relative; left:0px; top:0px; text-align:center; }
+	
+	/* page05 */
+	#page05_scrollH{ height:670px; }
+	#cubi_page05_main{ min-height:670px; }
+	
+	#cubi_page05_menu{ width:94%; height:48px; position:relative; margin-top:-70px; }
+	#cubi_page05_menu li{
+		background-size:80px 48px; margin:0 4% 20px 4%;
+		-ms-transform: scale(1.2,1.2); -webkit-transform: scale(1.2,1.2); transform: scale(1.2,1.2);
+	}
+	#cubi_page05_menu li:nth-child(3n+1){ margin:0 4% 20px 10%; }
+	#cubi_page05_menu li a{ width:80px; height:48px; }
+	#cubi_page05_menu li span{ height:48px; background-size:80px 48px; }
+	
+	#cubi_page05_mobileBox{
+		margin:0 auto; position:absolute; z-index:9999;
+		-ms-transform: scale(0.5,0.5); -webkit-transform: scale(0.5,0.5); transform: scale(0.5,0.5);
+	}
+	
+	#page05_vibrationBg{ background-size:1000px 547px; margin-top:-80px; }
+	#page05_vibInfo{ margin-top:-80px; margin-left:-10px; -ms-transform: scale(0.7,0.7); -webkit-transform: scale(0.7,0.7); transform: scale(0.7,0.7); }
+	
+	#page05_coGuardBg{ height:100px; width:100%; left:0px; background-size:250%;	}
+	
+	.page05_blockBox{ display:block; width:100%; height:100%; overflow:hidden;  }
+	.page05_blockBox article{ width:90%; margin:-100px 0 0 0; }
+	.page05_blockBox article h4{ font-size:24px; }
+	
+	#page05_sim{ -ms-transform: scale(0.6,0.6); -webkit-transform: scale(0.6,0.6); transform: scale(0.6,0.6); }
+	
+	#page05_flashBg{ background-position:-800px -50px;	}
+	#page05_flashBg_02{ background-position:-800px -50px; }
+	
+	/* page06 */	
+	#cubi_page06_bottom{ width:100%; height:180px; }
+	
+	#cubi_bottom_btn{ width:100%; height:auto; margin:20px auto 0 auto; }
+	#cubi_bottom_btn a{
+		width:100%; height:50px; margin:0 auto 10px auto; background-position:center center;
+	}
+	
+	#cubi_page06_bottom article{
+		width:80%; position:absolute; bottom:200px; margin:0 10%; text-align:center;
+	}
+	#cubi_page06_bottom article h5{ font-size:20px; color:rgba(0,0,0,0.7); font-style:italic; line-height:30px; }
+	#cubi_page06_bottom article p{ font-size:15px; color:rgba(0,0,0,0.5); font-style:italic; }
+	
+	ul#page06_imgs{ background-attachment:inherit; }
+	ul#page06_imgs li{ background-attachment: inherit; }
+	
+}
+
+@media all and (orientation:landscape) { 
+	
+	#mainMenu_block{ padding:50px 50px 0 50px; }
+	#mainMenu_block li h2{ margin:0 0 20px 0; }
+	
+}
+

@@ -1,0 +1,408 @@
+@charset "UTF-8";
+
+/*fonts*/
+@font-face{ font-family: TIMES_SQ; src: url(../inc/font/TIMES_SQ.TTF); src: url('../inc/font/TIMES_SQ.TTF') format('truetype'); }
+/* @font-face{ font-family: TickingTime_Reg; src: url(../inc/font/TickingTimebombBB.ttf); src: url('../inc/font/TickingTimebombBB.ttf') format('truetype'); } */
+
+/* email pop */
+#emailPopBox{ width:100%; height:100%; position:fixed; z-index:8889999; top:0px; left:0px; display:none; }
+#emailBlock{
+	width:90%; min-width:300px; max-width:300px; position:relative; margin:5% auto; z-index:99; padding:30px 30px 30px 30px; 	background-color:#fff;
+}
+#emailBlock p{ font-size:11px; color:#666; text-align:left; line-height:18px; letter-spacing:1px; }
+#emailBlock ul{ width:100%; display:block; padding:20px 0 10px 0; }
+#emailBlock li{ width:100%; display:block; margin:0 0 15px 0; }
+#emailBlock li span{ width:150px; display:block; font-size:13px; }
+
+.input_box{ min-height:30px; width:95%; margin:5px 0 0 0; background-color:#e8e8e8; padding:5px 5px; border:none; border-left:5px solid #6CF; }
+.emilBox_msg{ height:50px; }
+
+#emailBlock a{ width:100%; display:block; text-align:center; font-size:24px; font-weight:lighter; font-family:TIMES_SQ; }
+#emailBox_send_btn{
+	width:100%; display:block; text-align:center; font-size:24px; font-weight:lighter; font-family:TIMES_SQ; border:none; cursor:pointer;
+	background-color:#04b0ec; color:#fff; padding:15px 0; margin:0 0 15px 0;
+}
+#emailBox_send_btn:hover{ background-color:#29c8ff; }
+#emailBox_close_btn{ color:#666; padding:10px 0; }
+#emailBox_close_btn:hover{ background-color:#e8e8e8; }
+#emailBox_close_btn span{ color:#F36; }
+
+.msk_black{ width:100%; height:100%; position:absolute; top:0px; left:0px; background-color:rgba( 0,0,0,0.85 ); z-index:1; }
+
+/* konami code */
+#konamiCodeBox{
+	width:430px; height:50px; display:block; position:fixed; bottom:180px; right:-460px; z-index:9999999;
+	background-repeat:no-repeat; background-image:url(../imgs/konami_code.png);
+}
+
+/*special game*/
+#specAniBox{
+	width:1000px; height:600px; position:fixed; z-index:79999999; left:0px; top:0px;
+	background-color:rgba(4,179,255,0); display:none;
+}
+#specCubi{ width:800px; height:600px; position:relative; margin:0 auto; top:-50px; background-repeat:no-repeat; background-image:url(../imgs/spec/cubi_spec.png); }
+#specCubi_videoBox{
+	width:220px; height:220px; background-color:#303030; position:absolute; top:94px; left:290px; overflow:hidden;
+	background-repeat:repeat-y; background-position:center top; background-image:url(../imgs/spec/cubi_random_photo.jpg);
+}
+
+#specAniBox article{ color:#fff; position:absolute; display:none; margin-top:-50px; }
+#specAniBox article h3{ font-size:60px; font-family:TIMES_SQ; font-weight:lighter; line-height:50px; }
+#specAniBox article h4{ font-size:36px; font-family:TIMES_SQ; font-weight:lighter; }
+#specAniBox article h5{ font-size:30px; font-family:TIMES_SQ; font-weight:lighter; }
+
+#specTitle01{ width:300px; height:200px; left:0px; top:150px; text-align:right; }
+#specTitle02{ width:300px; height:200px; right:0px; top:180px; text-align:left; }
+
+#spec_btnBox{ width:600px; height:94px; display:block; position:absolute; z-index:99; bottom:0px; left:200px; text-align:center; background-color:rgba(0,0,0,0); display:none; }
+#spec_btnBox a{ width:260px; height:94px; display:inline-block; position:relative; background-repeat:no-repeat; background-position:center center; }
+a#spec_btn_close{ background-image:url(../imgs/spec/spec_close_btn.gif); padding:0 20px 0 0; }
+a#spec_btn_kick{ background-image:url(../imgs/spec/spec_kick_btn.gif); }
+a#spec_btn_close:hover{ background-image:url(../imgs/spec/spec_close_btn_ovr.gif); }
+a#spec_btn_kick:hover{ background-image:url(../imgs/spec/spec_kick_btn_ovr.gif); }
+
+#specPhotoList{
+	width:690px; height:30px; display:block; position:fixed; bottom:-30px; z-index:1;
+	background-image:url(../imgs/spec/specListPhoto.jpg); background-position:left top; background-repeat:no-repeat;
+}
+#specPhotoList span{ width:24px; height:24px; display:block; position:absolute; top:0px; left:0px; border:3px solid #FEFF00; }
+
+#specVoteBox{ display:block; margin:30px 0 0 0; }
+#specVoteBox a{
+	display:inline-block; width:80px; height:49px; margin:0 10px 0 0; cursor:pointer; vertical-align:central; background-repeat:no-repeat;
+}
+#specVote_btn{ background-image:url(../imgs/spec/vote_btn.gif); }
+#specVoteBox span{ display:inline-block; vertical-align:central; position:relative; top:-5px; }
+#specVoteBox span h6{ font-size:30px; font-family:TIMES_SQ; font-weight:lighter; color:#FF0; line-height:20px; }
+#specVoteBox span p{ font-size:20px; font-family:TIMES_SQ; font-weight:lighter; color:#fff; }
+
+/*public*/
+body{ background-color:#01b3ef; overflow-x: hidden; }
+
+#share_btn{ width:100%; height:40px; display:block; position:fixed; bottom:20px; right:20px; z-index:9999; text-align:right;  }
+#share_btn nav a{
+	display:inline-block; width:40px; height:40px; line-height:40px;
+	font-size:25px; color:#fff; font-family:TIMES_SQ; text-align:center; border:2px solid #fff; margin:0 0 0 5px; padding:0 0;
+}
+#share_btn_fb{ background-color:#0065c3; }
+#share_btn_tt{ background-color:#00b4ff; }
+
+#contactUs_btn{ background-color:rgba(0,0,0,0.2); background-repeat:no-repeat; background-image:url(../imgs/mail_icon.png); background-position:center center; }
+
+#kick_btn{
+	width:130px; height:134px; position:absolute; bottom:0px; left:40px;
+	background-image:url(../imgs/kick_icon.png); background-repeat:no-repeat; background-position:center center;
+}
+#beluvv_btn{
+	width:156px; height:30px; position:fixed; bottom:20px; left:20px;
+	background-image:url(../imgs/page06/beluvv_btn.png); background-repeat:no-repeat;
+}
+
+#cubi_scrollDown{
+	width:16px; height:137px; position:absolute; bottom:80px; right:36px; z-index:9999; display:none;
+	background-image:url(../imgs/scroll_down_icon.png); background-repeat:no-repeat;
+}
+
+.spacer{ width:30px; min-height:1px; color:#fff; font-size:10px; text-align:center; display:block; opacity:1; position:absolute; right:0px; z-index:999999; background-color:#39C; }
+
+/* white bg */
+#white_bg{ display:block; position:fixed; top:0px; left:0px; height:0vh; width:100vw; background-color:rgba(255,255,255,1); z-index:1; }
+
+/* header */
+header{ position:fixed; top:0px; left:0px; z-index:666999; }
+
+#logo{
+	display:block; width:159px; height:40px; position:absolute; top:30px; left:30px; font-size:1px; line-height:9999; cursor:pointer;
+}
+#logo span{ display:block; position:absolute; width:159px; background-repeat:no-repeat; }
+#logo_white{ background-image:url(../imgs/logo_white.png); background-position:top left; top:0px; z-index:11; height:40px; }
+#logo_blue{ background-image:url(../imgs/logo_blue.png); background-position:bottom left; bottom:0px; z-index:11; height:0px; }
+
+#mainMenu{ display:block; position:fixed; top:0px; right:0px; width:auto; height:auto; }
+#mainMenu_icon{
+	display:block; width:32px; height:32px; position:absolute; top:38px; right:30px; cursor:pointer; background-color:rgba(0,0,0,0); z-index:999;
+}
+#mainMenu_icon span{ width:32px; height:4px; display:block; position:absolute; left:0px; border-radius:2px; box-shadow:1px 1px 1px rgba(0,0,0,0.4); background-color:#fff; }
+#mainMenu_icon span:nth-child(1){ top:0px; }
+#mainMenu_icon span:nth-child(2){ top:10px; }
+#mainMenu_icon span:nth-child(3){ top:20px; }
+
+#mainMenu_block{ padding:150px 50px 0 50px; background-color:rgba(0,0,0,0.9); position:absolute; right:-400px; width:250px; height:100vh; z-index:99; }
+#mainMenu_block li{ display:block; }
+#mainMenu_block li h2{ font-size:36px; font-family:TIMES_SQ; font-weight:lighter; margin:0 0 40px 0; }
+#mainMenu_block li h2 a{ color:#04b0ec; }
+#mainMenu_block li h2 a:hover{ color:#fff; }
+#mainMenu_block li h3{ font-size:25px; font-family:TIMES_SQ; font-weight:lighter; display:block; line-height:20px; margin:0 0 10px 0; }
+#mainMenu_block li h3 a{ color:#fff; }
+#mainMenu_block li span{
+	width:30px; height:30px; display:inline-block; color:#fff; border:2px solid #fff; text-align:center; line-height:30px;
+	font-size:20px; font-family:TIMES_SQ; font-weight:lighter; margin:10px 10px 0 0; cursor:pointer;
+}
+
+#menuConatcUs{ background-image:url(../imgs/mail_icon.png); background-position:center center; background-repeat:no-repeat; }
+
+
+/*cubi bg*/
+#canvas_cubeBg{ width:100%; height:100%; position:fixed; top:0px; left:0px; z-index:33; }
+
+/*video KV*/
+#cubi_videoFrame{ display:block; position:relative; z-index:11; background-color:#000; width:100%; }
+#ytplayer{ width:100vw; height:100vh; }
+#video_blackBg{ width:100vw; height:100vh; position:absolute; pointer-events: none; background-repeat:repeat; background-image:url(../imgs/bgDot.png); z-index:99; }
+#video_controller{
+	width:90px; height:60px; position:absolute; overflow:hidden; border-radius:16px; z-index:111; display:none;
+	background-repeat:no-repeat; background-position:'0px 0px'; background-image:url(../imgs/player_control.gif);
+}
+
+/*page public*/
+.cubi_pageBox{ display:block; position:relative; width:100%; z-index:999; }
+.cubi_pageBox h2{ font-size:80px; font-family:TIMES_SQ; font-weight:lighter; }
+.cubi_pageBox h3{ font-size:30px; font-family:TIMES_SQ; font-weight:lighter; }
+.cubi_pageBox h4{ font-size:25px; font-family:TIMES_SQ; font-weight:lighter; }
+.cubi_pageBox p{ font-size:13px; font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif; font-weight:normal; line-height:20px; }
+
+.txtWhite{ color:#fff; }
+.txtBlue{ color:#04b0ec; }
+.txtGray{ color:#999; }
+
+/*home*/
+#cubi_home_main{ height:800px; min-height:800px; z-index:111; }
+#cubi_home_main h2{ display:block; position:absolute; width:35%; top:43%; left:5%; z-index:999; text-align:center; }
+#cubi_home_main h4{ display:block; position:absolute; width:30%; height:200px; right:5%; top:40%; z-index:999; text-align:left; }
+
+#homeMain_cubi_front{ width:800px; height:656px; position:fixed; bottom:0px; left:0px; z-index:11; }
+#homeMain_cubi_front img{
+	width:100%; height:100%; display:block; position:absolute; top:0px; left:0px;
+}
+#cubi_eyeAni{
+	width:277px; height:271px; position:absolute; top:50px; left:265px; z-index:999; border-radius:10px; display:none;
+	background-repeat:no-repeat; background-image:url(../imgs/cubiEye/cubiEyeAni.gif); background-position:center center;
+}
+
+/* page01 */
+#cubi_page01_main{ min-height:1100px; background-color:rgba(255,255,255,0); overflow:hidden; }
+
+#cubi_page01_article{ width:640px; display:block; position:absolute; margin:0 0 200px 0; top:300px; right:20%; z-index:99999; }
+#cubi_page01_article h2{ margin:0 0 10px 0; position:relative; z-index:99; }
+#cubi_page01_article h3{ margin:0 0 10px 0; position:relative; z-index:88; }
+#cubi_page01_article p{ position:relative; z-index:77; }
+
+#cubi_page01_imgSow{ margin:20px 0 0 0; width:640px; height:330px; position:relative; z-index:111; }
+#cubi_page01_imgSow a{
+	display:block; width:34px; height:62px; position:absolute; top:135px; z-index:999; background-repeat:no-repeat; background-position:center center;
+}
+#page01_arrow_L{ left:-50px; background-image:url(../imgs/arrow_L.png); }
+#page01_arrow_L:hover{ background-image:url(../imgs/arrow_L_ovr.png);  }
+#page01_arrow_R{ right:-50px; background-image:url(../imgs/arrow_R.png); }
+#page01_arrow_R:hover{ background-image:url(../imgs/arrow_R_ovr.png);  }
+
+#cubi_page01_imgSow img{ width:100%; height:100%; position:absolute; display:block; top:0px; left:0px; }
+
+#cubi_boy{
+	width:443px; height:931px; position:absolute; top:-50px; left:-350px; z-index:1;
+	background-image:url(../imgs/boy.png); background-size:contain;
+}
+
+#imgShow_video{ width:100%; height:100%; position:absolute; left:0px; top:0px; }
+#imgShow_video video{ width:100%; height:100%; }
+
+/* page02 */
+#cubi_page02_main{ z-index:66999; padding:0 0 50px 0; background-color:#01b3ef;  }
+
+#cubi_page02_article{ width:1000px; position:relative; margin:0 auto; padding:50px 0 0 0; z-index:333999; }
+#cubi_page02_article h2{ text-align:center; font-size:60px; }
+#cubi_page02_article ul{ display:block; margin:20px 0 0 0; }
+#cubi_page02_article ul li{ display:inline-block; width:200px; vertical-align:top; margin:0 50px 0 0; }
+#cubi_page02_article ul li:last-child{ margin:0 0; }
+
+/* page03 */
+#cubi_page03_main{ height:700px; overflow:hidden; z-index:799; position:relative; }
+
+#cubi_page03_videoD{ position:absolute; min-height:100%; min-width:110vw; }
+#bgDot{ height:100%; width:100%; position:absolute; top:0px; z-index:999; background-image:url(../imgs/bgDot.png); background-repeat:repeat; }
+#cubi_page03_videoD video{ width:100%; height:100%; min-height:110vh; background-color:#000; }
+
+#page03_info{ width:1000px; position:relative; margin:200px auto 0 auto; z-index:1111; }
+#page03_info article{ width:600px; position:absolute; top:220px; left:210px; }
+#page03_info article h4{ text-shadow:1px 1px rgba(0,0,0,0.8); }
+#page03_info article p{ text-shadow:1px 1px rgba(0,0,0,0.8); }
+
+#page03_cubiIphone{
+	position:absolute; width:189px; height:400px; top:0px; left:0px;
+	background-image:url(../imgs/mobile_screen/iphone.png); background-repeat:no-repeat;
+}
+#page03_cubiIphone img{ 	display:block; position:absolute; left:15px; top:59px; }
+
+/* page04 */
+#cubi_page04_main{ height:720px; background-color:#fff; background-size:cover; background-image:url(../imgs/changer_d.jpg); background-position:center center; background-repeat:no-repeat; z-index:9;  }
+
+#page04_info{ width:1000px; height:100%; position:relative; margin:0 auto; z-index:1111; overflow:hidden; }
+#page04_infoBox{ width:620px; position:absolute; right:50px; top:80px; }
+#page04_cubiFace{ width:172px; height:171px; position:absolute; border-radius:8px; background-image:url(../imgs/cubiimgs/cubiFace_record.gif); }
+#page04_infoBox article{ position:absolute; left:200px; top:35px; }
+
+/* page05 */
+#page05_scrollH{ height:1800px; }
+#cubi_page05_main{ min-height:103vh; background-color:#fff; z-index:699;  }
+
+#cubi_page05_menu{
+	width:560px; height:60px; position:absolute; z-index:666999;
+}
+#cubi_page05_menu li{ display:block; position:relative; float:left; margin:0 5px; padding:0 0; vertical-align:top; background-repeat:no-repeat; cursor:pointer; }
+#cubi_page05_menu li a{
+	display:block; width:100px; height:60px; line-height:9999; font-size:0px; cursor:pointer;
+}
+#cubi_page05_menu li span{ display:block; position:absolute; top:0px; left:0px; width:0px; height:60px; background-repeat:no-repeat; background-position:left top; }
+
+#page05_menu01{ background-image:url(../imgs/page05_menu/cubi_page05_menu_02.png); }
+#page05_menu01 span{ background-image:url(../imgs/page05_menu/cubi_page05_menuOvr_02.png); }
+#page05_menu02{ background-image:url(../imgs/page05_menu/cubi_page05_menu_03.png); }
+#page05_menu02 span{ background-image:url(../imgs/page05_menu/cubi_page05_menuOvr_03.png); }
+#page05_menu03{ background-image:url(../imgs/page05_menu/cubi_page05_menu_01.png); }
+#page05_menu03 span{ background-image:url(../imgs/page05_menu/cubi_page05_menuOvr_01.png); }
+#page05_menu04{ background-image:url(../imgs/page05_menu/cubi_page05_menu_04.png); }
+#page05_menu04 span{ background-image:url(../imgs/page05_menu/cubi_page05_menuOvr_04.png); }
+#page05_menu05{ background-image:url(../imgs/page05_menu/cubi_page05_menu_05.png); }
+#page05_menu05 span{ background-image:url(../imgs/page05_menu/cubi_page05_menuOvr_05.png); }
+#page05_menu06{ background-image:url(../imgs/page05_menu/cubi_page05_menu_06.png); }
+#page05_menu06 span{ background-image:url(../imgs/page05_menu/cubi_page05_menuOvr_06.png); }
+
+#cubi_page05_mobileBox{ width:189px; height:400px; margin:0 auto; position:absolute; z-index:9999; }
+.cubi_iphone{
+	width:189px; height:400px; position:relative; left:0px; z-index:999;
+	background-repeat:no-repeat; background-size:contain; background-image:url(../imgs/mobile_screen/iphone.png);
+}
+.cubi_mobileScreen{
+	width:160px; height:284px; position:absolute; overflow:hidden; top:59px; left:15px;
+	background-color:#00aaff; background-repeat:no-repeat; background-image:url(../imgs/mobile_screen/landing.jpg);
+}
+.cubi_mobileScreen ul{ width:500px; position:absolute; left:0px; top:0px; }
+.cubi_mobileScreen ul li{ display:block; float:left; width:160px; height:400px; }
+
+#page05_coGuardBg{
+	position:absolute; height:100px; width:100%; left:0px; background-repeat:repeat-x; background-position:left top; background-image:url(../imgs/cubi_coGuard_bg.png);
+}
+
+.page05_blockBox{ display:block; width:100%; height:100%; overflow:hidden; }
+.page05_blockBox article{
+	display:block; width:500px; position:absolute; margin:0 auto; text-align:center; z-index:2999;
+}
+
+#cubi_page05_gpsBlock{
+	display:block; width:189px; height:400px; position:absolute; top:0px; left:0px; z-index:111;
+}
+#gpsBlock_cubi{
+	width:279px; height:208px; position:absolute; top:140px; left:115px; z-index:999;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/cubi_side.png);
+}
+#gpsBlock_cubi span{
+	width:59px; height:35px; display:block; position:absolute; top:-40px; right:80px; background-repeat:no-repeat;
+}
+#gps_icon01{ background-image:url(../imgs/page05_item/singal_icon_01.png); }
+#gps_icon02{ background-image:url(../imgs/page05_item/singal_icon_02.png); }
+
+.gpsBlock_local{ position:absolute; background-repeat:no-repeat; z-index:66; }
+.gpsBlock_local span{ display:block; width:100%; height:100%; position:absolute; top:0px; left:0px; background-repeat:no-repeat; }
+
+#gpsBlock_local01{ width:250px; height:193px; top:120px; left:-300px; background-image:url(../imgs/page05_item/local_01.png); }
+#gpsBlock_local01 span{ background-image:url(../imgs/page05_item/local_01_photo.png); }
+
+#gpsBlock_local02{ width:165px; height:124px; top:180px; left:350px; background-image:url(../imgs/page05_item/local_02.png); }
+#gpsBlock_local02 span{ background-image:url(../imgs/page05_item/local_02_photo.png); }
+
+#cubi_page05_sosBlock{
+	width:252px; height:262px; position:absolute; top:60px; left:130px; z-index:999;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/cubi_sos.png);
+}
+#sos_circle{
+	width:76px; height:76px; position:absolute; top:20px; left:50px; z-index:999;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/circle_sos.png);
+}
+#sos_info{
+	width:203px; height:46px; position:absolute; top:0px; left:85px;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/info_sos.png);
+}
+
+#page05_vibrationBg{
+	width:100%; height:100%; position:absolute; background-repeat:no-repeat; background-image:url(../imgs/page05_item/page05_bg01.jpg); background-position:top center; background-color:#fff;
+}
+#page05_vibInfo{ width:228px; height:64px; position:absolute; top:160px; }
+#vibInfo_txt{
+	width:228px; height:64px; position:absolute; top:0px; left:0px; background-repeat:no-repeat; background-image:url(../imgs/page05_item/info_vib.png);
+}
+#vibInfo_circle{
+	width:106px; height:106px; position:absolute; top:80px; left:-55px; background-repeat:no-repeat; background-image:url(../imgs/page05_item/circle_vib.png);
+}
+
+#page05_sim{ width:470px; height:400px; position:absolute; }
+#page05_simCubiFront{
+	width:220px; height:304px; position:absolute; top:80px; left:0px; z-index:999;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/cubi_front.png);
+}
+#page05_simCard{
+	width:116px; height:68px; position:absolute; top:150px; left:260px; z-index:11;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/simcard.png);
+}
+#page05_simCover{
+	width:87px; height:83px; position:absolute; top:143px; left:410px; z-index:9;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/cubi_simCover.png);
+}
+#page05_simInfo{ width:156px; height:65px; position:absolute; top:45px; left:265px; z-index:333; }
+#simInfo_txt{ width:156px; height:65px; position:absolute; top:0px; left:0px; z-index:11; background-repeat:no-repeat; background-image:url(../imgs/page05_item/info_sim.png); }
+#simInfo_circle{ width:62px; height:62px; position:absolute; top:70px; left:-30px; background-repeat:no-repeat; background-image:url(../imgs/page05_item/circle_sim.png); }
+#simInfo_arrow{ width:62px; height:62px; position:absolute; top:70px; left:-30px; background-repeat:no-repeat; background-image:url(../imgs/page05_item/arrow_sim.png); }
+
+#page05_flashBg{
+	width:100%; height:100%; position:absolute; top:0px; left:0px; z-index:1999;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/page05_bg02.jpg); background-position:center top; background-color:#030f24;
+}
+#page05_flashBg_02{
+	width:100%; height:100%; position:absolute; top:0px; left:0px;
+	background-repeat:no-repeat; background-image:url(../imgs/page05_item/page05_bg02-2.jpg); background-position:center top; 
+}
+
+/* page06 */
+#cubi_page06_main{ min-height:100vh; z-index:999; background-color:#fff; overflow:hidden; }
+
+ul#page06_imgs{
+	width:100%; height:100%; display:block; position:absolute; z-index:11; top:0px; left:0px;
+	background-repeat:no-repeat; background-position:center center; background-size:cover; background-image:url(../imgs/page06/page06_bg01.jpg); background-attachment:inherit;
+}
+ul#page06_imgs li{
+	width:100%; height:100%; display:block; position:absolute; z-index:11; top:0px; left:0px;
+	background-repeat:no-repeat; background-position:center center; background-size:cover; background-attachment: inherit;
+}
+
+#cubi_page06_bottom{ 
+	width:100%; height:180px; position:absolute; bottom:0px; left:0px; z-index:99;
+	background-position:center bottom; background-repeat:no-repeat; background-image:url(../imgs/page06/copyright.gif); background-color:rgba( 255, 255, 255, 0.85 );
+}
+
+#cubi_bottom_btn{ width:600px; height:60px; display:block; margin:50px auto 0 auto; position:relative; }
+#cubi_bottom_btn a{
+	width:280px; height:60px; display:inline-block; position:relative; margin:0 5px;
+	background-repeat:no-repeat; background-size:contain;
+}
+#bottom_kick_btn{ background-image:url(../imgs/page06/kick_btn.gif); }
+#bottom_kick_btn:hover{ background-image:url(../imgs/page06/kick_btn_ovr.gif); }
+#bottom_contact_btn{ background-image:url(../imgs/page06/contact_btn.gif); }
+#bottom_contact_btn:hover{ background-image:url(../imgs/page06/contact_btn_ovr.gif); }
+
+#cubi_page06_bottom article{
+	width:80%; position:absolute; bottom:200px; margin:0 10%; text-align:center;
+}
+#cubi_page06_bottom article h5{ font-size:20px; color:rgba(0,0,0,0.7); font-style:italic; line-height:30px; }
+#cubi_page06_bottom article p{ font-size:15px; color:rgba(0,0,0,0.5); font-style:italic; }
+
+
+@media all and (min-width: 1024px) and (max-width: 1400px) {
+	
+	/* home */
+	#cubi_home_main h2{ width:35%; top:43%; left:5%; z-index:111; text-align:center; }
+	#cubi_home_main h4{ width:30%; height:200px; right:5%; top:38%; text-align:left; }
+	
+	/* page01 */
+	#cubi_page01_article{ right:10%; }
+
+}
+
