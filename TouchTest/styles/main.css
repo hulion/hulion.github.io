@@ -1,0 +1,42 @@
+html, body {
+  margin: 0;
+  padding: 0; }
+
+.wrapper {
+  width: 100%;
+  text-align: center; }
+
+.wrapper ul {
+  margin: 0; }
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background: #061239;
+  vertical-align: middle; }
+
+.delete {
+  display: none;
+  color: #FFF; }
+
+.box2 {
+  width: 100vw;
+  height: 100px;
+  margin-top: 50px;
+  background: #C01814; }
+
+.swipe {
+  color: #FFF;
+  font-size: 50px;
+  display: none; }
+
+.swipeleft {
+  color: #FFF;
+  font-size: 50px;
+  display: none; }
+
+.swiperight {
+  color: #FFF;
+  font-size: 50px;
+  display: none; }

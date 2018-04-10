@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta id="viewport" name="viewport" content="width=device-width, minimal-ui, initial-scale=1.0, maximum-scale=1.01, user-scalable=1">
+<link href="styles/main.css" rel="stylesheet" type="text/css" />
+<script
+  src="https://code.jquery.com/jquery-1.12.4.min.js"
+  integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="
+  crossorigin="anonymous"></script>
+<script type="text/javascript" src="js/jqmtouch.min.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<ul>
+			<li class="box">
+				<span class="delete">tap</span>
+			</li>
+			<li class="box">
+				<span class="delete">tap</span>
+			</li>
+		</ul>
+
+		<div class="box2">
+			<!-- <span class="swipe"> 滑動!! </span> -->
+			<span class="swipeleft"> 你是左邊 </span>
+			<span class="swiperight"> 你是右邊 </span>
+		</div>
+	</div>
+
+	<script>
+		$(".box").on("tap",function(){
+		  $('.delete').hide();
+		  $('.delete', this).show();
+		  $('.swipeleft').hide();
+		  $('.swiperight').hide();
+		});
+
+
+		$(".box2").on("swipeleft",function(){
+			$('.swiperight').hide();
+		  $('.swipeleft', this).show();
+		});
+		$(".box2").on("swiperight",function(){
+			$('.swipeleft').hide();
+		  $('.swiperight', this).show();
+		});
+
+	</script>
+</body>
+</html>
