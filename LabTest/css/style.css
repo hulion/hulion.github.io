@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+html, body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666; }
+
+a {
+  text-decoration: none;
+  color: #444;
+  outline: none;
+  hlbr: expression(this.onFocus=this.blur()); }
+  a:hover {
+    color: #00A1D9; }
+
+table {
+  border-collapse: collapse; }
+
+input {
+  background-color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #666;
+  border: 1px #aaa solid; }
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both; }
+
+.clearfix {
+  zoom: 1; }
+
+.clear {
+  clear: both; }
+
+.float-L {
+  float: left; }
+
+.float-R {
+  float: right; }
+
+.align-L {
+  text-align: left; }
+
+.align-R {
+  text-align: right; }
+
+.align-C {
+  text-align: center; }
+
+.displayB {
+  display: block; }
+
+.displayI {
+  display: inline; }
+
+.displayIB {
+  display: inline-block; }
+
+.displayF {
+  display: flex; }
+
+.border-box {
+  box-sizing: border-box; }
+
+/***************************************************/
+/*--Hide Text Set--*/
+/*--Hide Long Word Set--*/
+/*--Pop Up Shadow Set--*/
+/*--Horizontal List--*/
+/***************************************************/
+.name {
+  background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 15 15"><path fill="rgb(255,255,255)" fill-rule="evenodd" d="M5.672 11.238l2.066-2.355H0V7.117h7.776L5.672 4.762 6.8 3.5 10.82 8 6.8 12.5 5.67 11.238zM13.348 0c.435 0 .82.17 1.153.508.334.338.5.73.5 1.172v11.64c0 .443-.166.834-.5 1.172-.332.34-.717.508-1.152.508H1.898c-.434 0-.818-.17-1.15-.508-.334-.338-.5-.73-.5-1.172V10h1.65v3.32h11.45V1.68H1.898V5H.25V1.68c0-.443.166-.834.5-1.172C1.08.168 1.463 0 1.897 0h11.45z"/></svg>') no-repeat; }
+
+.svg_box {
+  width: 100px;
+  height: 100px;
+  background: url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><path d="M50 96.127l-9.187 3.022-7.476-6.137-9.659-.501-4.754-8.423-8.825-3.956-1.39-9.571-6.8-6.878 2.16-9.427-3.856-8.87 5.42-8.01-.391-9.663 7.948-5.51 3.125-9.153 9.402-2.268 6.22-7.406 9.587 1.282L50 0l8.476 4.658 9.586-1.282 6.22 7.406 9.403 2.268 3.125 9.152 7.948 5.511-.392 9.664 5.42 8.01-3.856 8.87 2.161 9.426-6.8 6.878-1.39 9.57-8.825 3.957-4.754 8.423-9.659.501-7.476 6.137z" fill="rgba(84, 20, 70, 1.00)" fill-rule="evenodd"/></svg>') no-repeat;
+  background-size: cover; }
+
+.constant-width-to-height-ratio {
+  background: #333;
+  width: 20%; }
+
+.constant-width-to-height-ratio::before {
+  content: '';
+  padding-top: 100%;
+  float: left; }
+
+.constant-width-to-height-ratio::after {
+  content: '';
+  display: block;
+  clear: both; }
+
+.test-box {
+  display: inline-block;
+  height: 30px;
+  padding: 0 10px;
+  background-color: rgba(250, 250, 250, 0.5); }
+
+.vmax-box-test {
+  width: 14.9925vmax;
+  height: 14.9925vmax;
+  background-color: green; }
+
+.vw-box-test {
+  width: 26.66667vw;
+  height: 26.66667vw;
+  background-color: red; }
+
+.ab-test-box {
+  width: 100vw;
+  height: 200px;
+  background-color: #befbef; }
+  .ab-test-box .ab-box {
+    position: absolute;
+    left: 50%;
+    width: 200px;
+    margin-left: -100px;
+    background-color: #333;
+    text-align: center; }

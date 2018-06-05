@@ -1,0 +1,97 @@
+// 先在 mixin.scss 分別設定需要的 SVG
+// 利用 https://jakearchibald.github.io/svgomg/ 取得 SVG code，通常會是<svg>...</svg>
+// 貼到下方 data:image/svg+xml, 之後
+// 找到 fill="顏色" ，將顏色改成變數 ' + $color + '
+
+// 範例：
+@function svg-name($color) {
+  @return url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 15 15"><path fill="' + $color + '" fill-rule="evenodd" d="M5.672 11.238l2.066-2.355H0V7.117h7.776L5.672 4.762 6.8 3.5 10.82 8 6.8 12.5 5.67 11.238zM13.348 0c.435 0 .82.17 1.153.508.334.338.5.73.5 1.172v11.64c0 .443-.166.834-.5 1.172-.332.34-.717.508-1.152.508H1.898c-.434 0-.818-.17-1.15-.508-.334-.338-.5-.73-.5-1.172V10h1.65v3.32h11.45V1.68H1.898V5H.25V1.68c0-.443.166-.834.5-1.172C1.08.168 1.463 0 1.897 0h11.45z"/></svg>');
+}
+
+// 需要使用時，使用include帶入mixin，並指定要呈現的顏色
+// 就可以完成具有變色彈性，又能隨著區塊放大縮小的的 SVG 背景
+
+.name{
+  background: svg-name('rgb(255,255,255)') no-repeat;
+}
+
+// 注意：圖片不需要再放到 images 底下
+
+
+
+
+@function svg-test($color) {
+  @return url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><path d="M50 96.127l-9.187 3.022-7.476-6.137-9.659-.501-4.754-8.423-8.825-3.956-1.39-9.571-6.8-6.878 2.16-9.427-3.856-8.87 5.42-8.01-.391-9.663 7.948-5.51 3.125-9.153 9.402-2.268 6.22-7.406 9.587 1.282L50 0l8.476 4.658 9.586-1.282 6.22 7.406 9.403 2.268 3.125 9.152 7.948 5.511-.392 9.664 5.42 8.01-3.856 8.87 2.161 9.426-6.8 6.878-1.39 9.57-8.825 3.957-4.754 8.423-9.659.501-7.476 6.137z" fill="' + $color + '" fill-rule="evenodd"/></svg>');
+}
+
+.svg_box{
+	width: 100px;
+	height: 100px;
+	background: svg-test('rgba(84, 20, 70, 1.00)') no-repeat;
+	background-size: cover;
+}
+
+.constant-width-to-height-ratio {
+  background: #333;
+  width: 20%;
+}
+.constant-width-to-height-ratio::before {
+  content: '';
+  padding-top: 100%;
+  float: left;
+}
+.constant-width-to-height-ratio::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.test-box{
+	display: inline-block;
+	height: 30px;
+	padding: 0 10px ;
+	background-color: rgba(250,250,250,.5);
+}
+
+@function vmax($target){
+  $vmax-context: (667 * 0.01) * 1px;
+  @return ($target / $vmax-context) * 1vmax;
+}
+
+@function vw($target){
+  $vw-context: (375 * 0.01) * 1px;
+  @return ($target / $vw-context) * 1vw;
+}
+
+.vmax-box-test{
+  width: vmax(100px);
+  height: vmax(100px);
+  background-color: green;
+}
+
+.vw-box-test{
+  width: vw(100px);
+  height: vw(100px);
+  background-color: red;
+}
+
+
+@mixin ab-center($width) {
+    position: absolute;
+    left: 50%;
+    width: $width;
+    margin-left: -($width / 2);
+}
+
+
+.ab-test-box{
+    width: 100vw;
+    height: 200px;
+    background-color: rgba(190, 251, 239, 1.00);
+    .ab-box{
+        @include ab-center(200px);
+        background-color: #333;
+        text-align: center;
+    }   
+}
+
