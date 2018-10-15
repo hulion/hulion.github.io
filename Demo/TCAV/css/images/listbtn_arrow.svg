@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="20px" viewBox="0 0 12 20" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Menu" transform="translate(-345.000000, -62.000000)" fill="#FFFFFF">
+            <g id="arrow" transform="translate(346.500000, 72.500000) scale(-1, 1) translate(-346.500000, -72.500000) translate(336.000000, 62.000000)">
+                <path d="M5.90660172,14.3066017 L5.90660172,4.50660172 C5.90660172,3.73340307 5.27980037,3.10660172 4.50660172,3.10660172 C3.73340307,3.10660172 3.10660172,3.73340307 3.10660172,4.50660172 L3.10660172,4.50660172 L3.10660172,15.7066017 C3.10660172,16.093201 3.26330206,16.443201 3.51665222,16.6965512 C3.77000239,16.9499014 4.12000239,17.1066017 4.50660172,17.1066017 L4.50660172,17.1066017 L15.7066017,17.1066017 C16.4798004,17.1066017 17.1066017,16.4798004 17.1066017,15.7066017 C17.1066017,14.9334031 16.4798004,14.3066017 15.7066017,14.3066017 L5.90660172,14.3066017 Z" id="Combined-Shape" transform="translate(10.106602, 10.106602) rotate(45.000000) translate(-10.106602, -10.106602) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

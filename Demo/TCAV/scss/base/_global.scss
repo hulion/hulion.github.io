@@ -1,0 +1,22 @@
+// 訂製文字適應大小 @include font-dpr(12px);
+@mixin font-dpr($font-size) {
+	font-size: $font-size;
+
+	[data-dpr="2"] & { 
+		font-size: $font-size * 2;
+	}
+	
+	[data-dpr="3"] & {
+		font-size: $font-size * 3;
+	} 
+}
+
+.clearfix:after { 
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.clearfix { zoom: 1; }
+.clear {clear: both;}
+

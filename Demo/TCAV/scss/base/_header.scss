@@ -1,0 +1,274 @@
+header{
+	background-color: #3C7AD2;
+	&.cn{
+		background-color: #FF3537;
+	}
+	&.jp{
+		background-color: #FF8B49;
+	}
+	&.kr{
+		background-color: #B792FF;
+	}
+	&.us{
+		background-color: #60C9D2;
+	}
+	&.cartoon{
+		background-color: #8F50DF;
+	}
+	&.hd{
+		background-color: #1DBAAE;
+	}
+	&.new{
+		background-color: #AC8C54;
+	}
+	&.vip{
+		background-color: #0055d4;
+	}
+}
+
+// 上方Logo區塊
+.top_header{
+	padding-top: 10px;
+	.logo{
+		width: 73px;
+		height: 32px;
+		display: inline-block;
+		vertical-align: middle;
+		margin-left: 15px;
+		background-image: url(images/Logo_2x.png);
+		background-size: cover;
+	}
+	.search_wrap{
+		position: absolute;
+		height: 32px;
+		top: 10px;
+		left: 101px;
+		right: 46px;
+		.inner{
+			width: 100%;
+			position: relative;
+		}
+		.icon{
+			display: inline-block;
+			width: 15px;
+			height: 15px;
+			position: absolute;
+			top: 8px;
+			left: 10px;
+			background-image: url(images/search-icon.svg);
+			background-size: 15px;
+			pointer-events: none;
+		}
+		input{
+			width: 100%;
+			padding: 7px 10px 10px 34px;
+			border: 0px;
+			border-radius: 20px;
+			@include font-dpr(12px);
+			color: #333;
+
+			&::placeholder{
+				color: #B4B4BA;
+			}
+		}
+	}
+	.btn__member {
+		position: absolute;
+		top: 10px;
+		right: .21333rem;
+		height: 32px;
+		color: #FFFFFF;
+		font-size: 15px;
+		font-weight: bold;
+		line-height: 32px;
+		text-shadow: 0 1 0 rgba(0, 0, 0, .2);
+	}
+}
+
+
+
+// 上方廣告
+
+.flexslider {
+	width: 85%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.top__banner {
+	// height: calc(4.266667rem + 20px);
+	margin-top: 10px;
+	overflow: hidden;
+	
+	.flex-viewport {
+		overflow: inherit !important;
+	}
+
+	.slides {
+		white-space: nowrap;
+		overflow: hidden;
+		vertical-align: middle;
+
+		li {
+			display: inline-block;
+			width: 100%;
+			margin-bottom: 0;
+			text-align: center;
+
+			.banner{
+				display: inline-block;
+				width: 100%;
+				height: 4rem;
+				margin: auto 0;
+				padding: 0 5px;
+				position: relative;
+				transform: scale(0.98 , 1);
+
+				&:after{
+					content:"";
+					display: inline-block;
+					width: calc(100% - 48px);
+					height: 50px;
+					position: absolute;
+					left: 24px;
+					bottom: 0;
+					box-shadow: 0 5px 20px 0 #264E85;
+					border-radius: 3px;
+					z-index: 1;
+				}
+				.inner{
+					width: 100%;
+					height: 100%;
+					background-color: #F2F4F5;
+					background-size: cover;
+					background-position: center;
+					background-repeat: no-repeat;
+					position: absolute;
+					z-index: 2;
+					border-radius: 5px;
+				}
+			}
+		}
+	}
+}
+
+
+// 選單
+.top__nav--wrap{
+	padding: 0 15px;
+	margin-top: 10px;
+	position: relative;
+
+	ul{
+		overflow-y: hidden;
+		width: calc(100% - 26px);
+		white-space: nowrap;
+		-webkit-overflow-scrolling : touch;
+
+		li{
+			display: inline-block;
+			@include font-dpr(18px);
+			margin-right: 10px;
+			padding: 7px 3px;
+			font-weight: bold;
+
+			&:last-child {
+				margin-right: 0;
+			}
+
+			&.active {
+				padding-bottom: 0;
+
+				&:after {
+					content:"";
+					display: block;
+					width: calc(100% + 6px);
+					margin-left: -3px;
+					margin-top: 5px;
+					margin-bottom: 2px;
+					height: 5px;
+					background-color: #FFF;
+					border-radius: 5px;
+				}
+			}
+			a{
+				color: #FFF;
+			}
+		}
+	}
+	.btn__menu{
+		width: 36px;
+		height: 100%;
+		position: absolute;
+		right: 0;
+		top: 0;
+		background-image: url(images/menu-icon.svg);
+		background-size: 18px 16px;
+		background-position: 5px 9px;
+		background-repeat: no-repeat;
+	}
+}
+
+// 下方提示
+.top__item{
+	text-align: center;
+	margin-top: 10px;
+	width: 100%;
+	ul{
+		display: inline-block;
+		padding-bottom: 12px;
+
+		li{
+			display: inline-block;
+			margin-right: 0.4rem;
+
+			&:last-child{
+				margin-right: 0;
+			}
+
+			i{
+				display: inline-block;
+				width: 16px;
+				height: 16px;
+				vertical-align: middle;
+			}
+
+			&.item-1{
+				i{
+					background-image: url(images/tip-icon-1.svg);
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center;
+				}
+			}
+
+			&.item-2{
+				i{
+					background-image: url(images/tip-icon-2.svg);
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center;
+				}
+			}
+
+			&.item-3{
+				i{
+					background-image: url(images/tip-icon-3.svg);
+					background-size: cover;
+					background-repeat: no-repeat;
+					background-position: center;
+				}
+			}
+
+			span{
+				display: inline-block;
+				vertical-align: middle;
+				@include font-dpr(12px);
+				color: #FFF;
+			}
+		}
+	}
+}
+
+
+

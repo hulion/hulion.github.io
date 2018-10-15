@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="12px" viewBox="0 0 13 12" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>play_like</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="播放介面" transform="translate(-49.000000, -375.000000)" fill="#FFFFFF">
+            <g transform="translate(0.000000, 100.000000)" id="Group">
+                <g transform="translate(48.000000, 271.000000)">
+                    <path d="M8.59242514,6.7552931 L8.59242514,5.71616882 C8.59242514,3.99449135 7.19672978,2.59879599 5.4750523,2.59879599 C3.75337482,2.59879599 2.35767946,3.99449135 2.35767946,5.71616882 L2.35767946,5.71616882 L2.35767946,9.87266594 L2.35767946,12.9900388 L9.63154942,12.9900388 C11.3532269,12.9900388 12.7489223,11.5943434 12.7489223,9.87266594 L12.7489223,9.87266594 L12.7489223,9.87266594 C12.7489223,8.15098846 11.3532269,6.7552931 9.63154942,6.7552931 L8.59242514,6.7552931 Z" id="Like" transform="translate(7.553301, 7.794417) rotate(-45.000000) translate(-7.553301, -7.794417) "></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

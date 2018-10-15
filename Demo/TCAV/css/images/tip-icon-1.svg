@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>tip-icon-1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-34.000000, -265.000000)">
+            <g id="Top">
+                <g id="小特點" transform="translate(35.000000, 265.000000)">
+                    <g id="tip-icon-1" transform="translate(0.000000, 1.000000)">
+                        <circle id="Oval" stroke="#FFFFFF" cx="8" cy="8" r="8"></circle>
+                        <path d="M6.125,10.1484375 C5.89062383,10.1484375 5.7734375,10.0677091 5.7734375,9.90625 L5.7734375,6.0078125 L4.453125,6.0078125 L4.453125,9.9609375 C4.45833336,10.8151084 4.87499586,11.2421875 5.703125,11.2421875 L10.859375,11.2421875 C11.3437524,11.2421875 11.5859375,10.9947941 11.5859375,10.5 L11.5859375,10.1484375 L8.8125,10.1484375 L8.8125,7.9609375 L11.4296875,7.9609375 L11.4296875,6.78125 L8.8125,6.78125 L8.8125,5.0703125 L11.5234375,5.0703125 L11.5234375,3.9765625 L4.3203125,3.9765625 L4.3203125,5.0703125 L6.5625,5.0703125 C7.13021117,5.0703125 7.4140625,5.37760109 7.4140625,5.9921875 L7.4140625,10.1484375 L6.125,10.1484375 Z" id="正" fill="#FFFFFF"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

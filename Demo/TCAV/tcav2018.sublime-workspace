@@ -1,0 +1,961 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"ma",
+				"margin-bottom"
+			],
+			[
+				"title-",
+				"title-wrap\t(index.html)"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"am",
+				"animation"
+			],
+			[
+				"k",
+				"key\t@keyframes"
+			],
+			[
+				"s",
+				"scale"
+			],
+			[
+				"t",
+				"transform"
+			],
+			[
+				"rgba",
+				"rgba()"
+			],
+			[
+				"le",
+				"letter-spacing"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"fo",
+				"font-size"
+			],
+			[
+				"LE",
+				"Letou_M/"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"wi",
+				"window"
+			],
+			[
+				"w",
+				"window"
+			],
+			[
+				"he",
+				"header"
+			],
+			[
+				"sc",
+				"scroll\t(main.js)"
+			],
+			[
+				"es",
+				"ease-out\t(_loader.scss)"
+			],
+			[
+				"box",
+				"box-shadow"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"cou",
+				"cursor"
+			],
+			[
+				"fi",
+				"first\t.first()"
+			],
+			[
+				"o",
+				"overflow"
+			],
+			[
+				"tex",
+				"text-indent"
+			],
+			[
+				"padding-",
+				"padding-right"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"hi",
+				"hidden"
+			],
+			[
+				"FAQ-",
+				"FAQ-tile\t(index.html)"
+			],
+			[
+				"j",
+				"justify"
+			],
+			[
+				"tx",
+				"text-align"
+			],
+			[
+				"a",
+				"auto"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"to",
+				"toggleClass\t.toggleClass()"
+			],
+			[
+				"cur",
+				"cursor\t(_reset.scss)"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"tet",
+				"text-decoration\t(_reset.scss)"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"border-ri",
+				"border-right-width"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"d",
+				"deposit-wrap"
+			],
+			[
+				"m",
+				"middle"
+			],
+			[
+				"bonus-s",
+				"bonus-slider-1"
+			],
+			[
+				"url",
+				"url()"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"Foo",
+				"FooterSprite.css"
+			],
+			[
+				"app",
+				"appdownload-warp"
+			],
+			[
+				"border-r",
+				"border-radius"
+			],
+			[
+				"bl",
+				"block\t(login.css)"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"text-",
+				"text-decoration"
+			],
+			[
+				"tan",
+				"transition"
+			],
+			[
+				"red",
+				"red\t(bonusoffer.html)"
+			],
+			[
+				"back",
+				"background-image"
+			],
+			[
+				"tran",
+				"text-transform"
+			],
+			[
+				"title",
+				"title-warp\t(offer9.html)"
+			],
+			[
+				"n",
+				"normal"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"i",
+				"inline-block"
+			],
+			[
+				"clo",
+				"close-btn"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"deposit-1",
+				"deposit-1-1.html"
+			],
+			[
+				"tfo",
+				"transform\t(_variable.scss)"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"remin",
+				"remind-1.html"
+			],
+			[
+				"help",
+				"helpcenter-1.html"
+			],
+			[
+				"da",
+				"date\t(_bill.scss)"
+			],
+			[
+				"pla",
+				"placeholder\t(bill-1-1.html)"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"im",
+				"images"
+			],
+			[
+				"with",
+				"withdraw-4.html"
+			],
+			[
+				"la",
+				"last-child"
+			],
+			[
+				"lo",
+				"loading-bar\t(register-1.html)"
+			],
+			[
+				"sam",
+				"small\t<small>"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"de",
+				"deposit-1-2.html"
+			],
+			[
+				"r",
+				"relative"
+			],
+			[
+				"wea",
+				"wealth-1.html"
+			],
+			[
+				"res",
+				"responsibility.html"
+			],
+			[
+				"resp",
+				"responsibility-1.html"
+			],
+			[
+				"pie-",
+				"pie-zone\t(_wealth.scss)"
+			],
+			[
+				"pie",
+				"pie-zone\t(_wealth.scss)"
+			],
+			[
+				"funds-",
+				"funds-list\t(wealth-2.html)"
+			],
+			[
+				"sl",
+				"solid"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"be",
+				"before"
+			],
+			[
+				"over",
+				"overflow"
+			],
+			[
+				"fe",
+				"fixed\t(_nav.scss)"
+			],
+			[
+				"f",
+				"flex"
+			],
+			[
+				"se",
+				"select-box\t(setting.html)"
+			],
+			[
+				"my",
+				"mymember.html"
+			],
+			[
+				"v",
+				"visibility"
+			],
+			[
+				"bill-",
+				"bill-2.html"
+			],
+			[
+				"pro",
+				"promotion.html\t(index.html)"
+			],
+			[
+				"border",
+				"border-radius"
+			],
+			[
+				"mag",
+				"margin-top"
+			],
+			[
+				"line",
+				"line-height"
+			],
+			[
+				"af",
+				"after"
+			],
+			[
+				"slo",
+				"solid\t(_nav.scss)"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"pare",
+				"parent\t.parent()"
+			],
+			[
+				"fade",
+				"fadeIn\t.fadeIn()"
+			],
+			[
+				"si",
+				"slideUp\t.slideUp()"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"min",
+				"min-height"
+			],
+			[
+				"ove",
+				"overflow-y"
+			],
+			[
+				"mi",
+				"min-height"
+			],
+			[
+				"out",
+				"outerWidth\t.outerWidth()"
+			],
+			[
+				"test",
+				"testButton1"
+			],
+			[
+				"x",
+				"x"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"parent",
+				"parents\t.parents()"
+			],
+			[
+				"border-s",
+				"border-right-style"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 372.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"a",
+				"Autoprefix CSS"
+			],
+			[
+				"",
+				"Autoprefix CSS"
+			]
+		],
+		"width": 586.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ','%20')).read())"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+	],
+	"file_history":
+	[
+		"/Users/Lion/Dropbox/Work/獵戶/TCAV/TCAV H5/www/181009/scss/views/_index.scss",
+		"/Users/Lion/Dropbox/Work/獵戶/TCAV/TCAV H5/www/181009/scss/main.scss",
+		"/Users/Lion/Dropbox/Work/獵戶/TCAV/TCAV H5/www/181009/scss/base/_footer.scss",
+		"/Users/Lion/Dropbox/Work/獵戶/TCAV/TCAV H5/www/181009/scss/base/_global.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/index.html",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/views/_index.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/project-2.html",
+		"/Users/Lion/Dropbox/Public/LionStudio/project-5.html",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/views/_Insidepages.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/js/main.js",
+		"/Users/Lion/Dropbox/Public/LionStudio/project-3.html",
+		"/Users/Lion/Dropbox/Public/LionStudio/project-1.html",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/rwd/_mobile.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/main.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/_RWDmobile.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/633/手機版/Html/www/sass/base/_root.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/views/_letou-app.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/views/_633-app.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/base/_root.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/base/_header.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/base/_loader.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/sass/base/_root.scss",
+		"/Users/Lion/Dropbox/Public/LionStudio/Template.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170420_代理人介紹頁/Html/index.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170420_代理人介紹頁/Html/js/main.js",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170420_代理人介紹頁/Html/sass/views/_home.scss",
+		"/Users/Lion/Desktop/pace.min.js",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網/SVN/v3.170106/js/mine.js",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/js/main.js",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/views/_home.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/rwd/_mobile.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網/LiveChat/sass/base/_root.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網/LiveChat/sass/base/_reset.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/index.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/base/_root.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/base/_global.scss",
+		"/Users/Lion/Dropbox/Public/Letou/vip-demo/Html/sass/views/_home.scss",
+		"/Users/Lion/Dropbox/Public/Letou/vip-demo/Html/sass/rwd/_pc.scss",
+		"/Users/Lion/Dropbox/Public/Letou/vip-demo/Html/index.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/base/_header.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/styles/main.css",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/main.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/rwd/_pc.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/views/home.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer9/sass/views/_index.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer9/offer9.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/SVN/offer/offer1/offer1.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/SVN/offer/offer1/styles/offer1.css",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/_main.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170413_VIP說明頁/Html/sass/base/_reset.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/sass/base/_root.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/sass/views/_index.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/views/header-main.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/views/header-search.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/base/_nav.scss",
+		"/Users/Lion/Dropbox/Work/奧文環球/Vwin/Vwin 官網/會員中心/css/main.css",
+		"/Users/Lion/Dropbox/Work/奧文環球/Vwin/Vwin 官網/會員中心/ck_dk.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/index.html",
+		"/Users/Lion/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/css/main.css",
+		"/Users/Lion/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/css/jquery.fancybox.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/index.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/css/main.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/SVN/v2.170224/css/main.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/SVN/v2.170224/index.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/SVN/v2.170224/css/FooterSprite.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/base/_nav.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/login.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/_register.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/index.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/views/header-main.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/會員中心/css/main.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/會員中心/ck_dk.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/css/FooterSprite.css",
+		"/Users/Lion 1/Downloads/stylesheet.txt",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/sass/FooterSprite.scss",
+		"/Users/Lion 1/Dropbox/Lion_Lab/Sass/Compass Sprite/sass/main.scss",
+		"/Applications/CodeKit.app/Contents/Resources/engines/compass/compass-core/stylesheets/compass/css3/_deprecated-support.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/home.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/Vwin 官網/Html/sass/footersprite.scss",
+		"/Users/Lion 1/Dropbox/Lion_Lab/Sass/Compass Sprite/css/main.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/_RWDmobile.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/_main.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/_responsibility.scss",
+		"/Users/Lion 1/Downloads/Montserrat-Regular/styles.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網/紅利存款/Html/js/bonusoffer.js",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網/紅利存款/Html/js/mine.js",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網/紅利存款/Html/styles/bouseoffer.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網/紅利存款/Html/index-login.html",
+		"/Users/Lion 1/Dropbox/Public/百度加速器/js/aria2.js",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/wealth-3.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/sass/_wealth.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/官網-手機版/HTML/手機正式版/wealth-2.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer9/offer9.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer9/sass/views/_index.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer9/sass/rwd/_mobile.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer9/sass/rwd/_pc.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer8/sass/rwd/_pc.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer8/sass/views/_index.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer9/offer9-bk.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer7/sass/views/_index.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/sass/views/_index.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer8/sass/rwd/_mobile.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer8/offer8.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer8/styles/main.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/offer6.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer7/offer7.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer7/sass/rwd/_mobile.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/sass/rwd/_mobile.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer7/sass/base/_root.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer7/sass/rwd/_pc.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/sass/base/_reset.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/sass/base/_root.scss",
+		"/Users/Lion 1/Downloads/aos-master/demo/async.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/633/手機版/Html/www/sass/base/_root.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/633/手機版/Html/www/sass/base/_nav.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/170309 越南註冊界面/www/sass/base/_reset.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/config.rb",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/633/手機版/Html/www/index-appdownload-1.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer6/sass/rwd/_pc.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer01/offer01.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer01/styles/main.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/633/手機版/Html/www/sass/base/_header.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/633/手機版/Html/www/sass/_main.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/170309 越南註冊界面/www/index.html",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Vwin/170309 越南註冊界面/www/sass/views/_index.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer01/sass/base/_root.scss",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/SVN/offer/offer/styles/offer.css",
+		"/Users/Lion 1/Dropbox/Work/奧文環球/Letou/170309_新官網紅利網站/html/offer01/sass/base/_reset.scss"
+	],
+	"find":
+	{
+		"height": 28.0
+	},
+	"find_in_files":
+	{
+		"height": 161.0,
+		"where_history":
+		[
+			"*.scss",
+			"*.html",
+			"*.scss",
+			"/Users/Lion/Desktop/bridge,/Users/Lion/Dropbox (個人)/Work/奧文環球/633/手機版/Html/www",
+			"/Users/Lion/Desktop/bridge",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"blur",
+			".view-btn",
+			"{\n",
+			"deposit-inner",
+			"lighter",
+			"banner-people",
+			"@media",
+			"nav-right-warp",
+			".pt-icon a",
+			".sct a span",
+			".field .label",
+			"none",
+			".pt1",
+			"viber",
+			"facebook",
+			"56",
+			"-377px",
+			"-450px",
+			"stop",
+			"18",
+			"oneworks",
+			"jockeyclub",
+			"bitcoin",
+			"18",
+			"footer",
+			"johnson",
+			".LightBoxMain",
+			".contentmain",
+			".BackTop",
+			"BackTop",
+			"display: none",
+			"%;\n",
+			".promotion-img",
+			"number",
+			".blue-bar",
+			".pass-input",
+			".field .label",
+			"promotion-title",
+			".remind-block",
+			".final-value",
+			".field .label",
+			".bill",
+			".sh-icon .bill",
+			".sh-icon.icon4.bill",
+			".nav-back-warp a",
+			"..nav-back-warp a",
+			".icon-nav-home",
+			".sub-menu-list",
+			".sub-menu-warp",
+			".sub-menu-warp ul",
+			".number-1",
+			".news-icon.delete",
+			".circlechecked-icon",
+			".info-blcok",
+			".list-box-link",
+			".news-icon",
+			"content",
+			"list-box-link .content",
+			"list-box-link",
+			".info-blcok",
+			"info-blcok",
+			".list-box-link",
+			".list-box",
+			".addarrow",
+			".select-button a .select-button-inner i",
+			".list-box-link",
+			".add-arrow",
+			".header-warp",
+			".search",
+			"search",
+			".slide-bg-warp",
+			".silde-word",
+			"ㄡsilde-word",
+			"silde-word",
+			".header-gray-bg",
+			"header-gray-bg",
+			".menu-list-icon",
+			"menu-list-icon",
+			".select-box",
+			".field-control .select-box",
+			".field-control.select-box",
+			".button.setting",
+			".safesetting-block",
+			".header-gray-bg",
+			".account-balance",
+			"account-balance ",
+			"list-box",
+			"filter-block",
+			".filter-block",
+			"list-box",
+			".setting-submit",
+			"pie-box",
+			".header-warp",
+			".header-gray-bg2",
+			"header-gray-bg2",
+			"header-gray-bg",
+			"header-gray-bg2",
+			"list-bg",
+			"fadeInUP",
+			"select-box",
+			"UCselect-box",
+			"select-box",
+			"bounce",
+			"header-gray-bg2",
+			"header-warp",
+			"nav-back-warp",
+			"promotion-list-warp",
+			"icon-clear",
+			"\t\n",
+			"verification-code",
+			"reddot",
+			"gary-block",
+			"garyword-warp",
+			"gary-block",
+			"home-banner-top",
+			"gary-block",
+			"news-list",
+			"nav-right-warp",
+			"distance",
+			"shortcut-button-warp",
+			"animations",
+			"touches",
+			"beginPath",
+			".PI",
+			"updateCoords",
+			"setCanvasSize",
+			"getFontSize",
+			"fireworks"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"$fontweight",
+			"0px",
+			"          <ul class=\"list-inline\">\n\n            <li class=\"User-Star-Hit\">\n              <div class=\"User-Star-Padding\">\n                <a class=\"User-Star bg-Color-A\" href=\"#\">\n                  <i class=\"fa fa-heart\"></i> \n                </a>\n              </div>\n            </li>\n\n            <li class=\"User-Chat-Hit\">\n              <div class=\"User-Chat-Padding\">\n                <a class=\"User-Chat bg-Color-A\" href=\"#\">\n                  <i class=\"fa fa-comment\"></i> \n                </a>\n              </div>\n            </li>\n\n          </ul>"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 51.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "tcav2018.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 203.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

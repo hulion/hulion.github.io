@@ -1,0 +1,471 @@
+// 上方導航
+.page__title--wrap{
+	width: 100%;
+	height: 43px;
+	text-align: center;
+	position: fixed;
+	background-color: #222222;
+	z-index: 5;
+	&:after{
+		content: "";
+		display: block;
+		width: 100%;
+		height: 1px;
+		background-color: #2E2E2E;
+	}
+	.page__title{
+		color: #FFF;
+		@include font-dpr(18px);
+		line-height: 43px;
+	}
+	.btn__back--wrap{
+		width: 37px;
+		height: 43px;
+		position: absolute;
+		left: 0;
+		text-align: center;
+		.btn__back{
+			width: 13px;
+			height: 21px;
+			display: inline-block;
+			margin-top: 10px;
+			background-image: url(images/arrow.svg);
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-position: center;
+			a{
+				display: inline-block;
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+}
+
+// 輸入框
+.field__wrap{
+	padding-top: 58px;
+	.field__input{
+		width: 100%;
+		border-bottom: 1px solid #3B3B3B;
+		background: #222222;
+		padding: 0px 20px;
+		position: relative;
+		&:after{
+			content:"";
+			display: inline-block;
+			width: 20px;
+			height: 100%;
+			position: absolute;
+			top: 0;
+			left: 0;
+			border-bottom: 1px solid #222222;
+		}
+		&.last:after{
+			border-bottom: 0px;
+		}
+		label{
+			display: inline-block;
+			@include font-dpr(14px);
+			color: #ADACB1;
+			padding: 0;
+			margin: 0;
+			padding: 15px 0px;
+			vertical-align: middle;
+		}
+		input{
+			@include font-dpr(14px);
+			background-color: transparent;
+			border: 0px;
+			color: #FFF;
+			&::-webkit-input-placeholder{
+				color: #5F5F5F;
+			}
+			&.input-text{
+				position: absolute;
+				display: inline-block;
+				top: 0;
+				right: 0;
+				left: 90px;
+				z-index: 1;
+				padding: 13px 0px 15px 0px;
+				vertical-align: middle;
+				width: 75%;
+				bottom: 0;
+			}
+			&.reset-x{
+				position: absolute;
+				z-index: 2;
+				right: 20px;
+				width: 20px;
+				height: 100%;
+				top: 0;
+				text-indent: -9999px;
+				background-image: url(images/reset-x.svg);
+				background-repeat: no-repeat;
+				background-position: center right;
+				opacity: 0;
+				transition: all .6s;
+				&.v-code{
+					right: 4.053333rem;
+				}
+				&.show{
+					opacity: 1;
+					transition: all .5s;
+				}
+			}
+		}
+		.v-code{
+			width: 3.52rem;
+			height: 29px;
+			position: absolute;
+			right: 8px;
+			top: 8px;
+		}
+	}
+}
+
+// 按鈕
+.memberbtn__wrap{
+	width: 100%;
+	padding: 0px 0.533333rem;
+	margin-top: 50px;
+	a{
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+		padding: 0.32rem 0;
+		background: #3C7AD2;
+		border: 1px solid #4489EB;
+		border-radius: 5px;
+		@include font-dpr(18px);
+		color: #FFF;
+		margin-bottom: 20px;
+		letter-spacing: 1px;
+		&.outer{
+			background: transparent;
+			color: #3C7AD2;
+		}
+	}
+}
+
+// 同意註冊
+.agree_checked{
+	width: 100%;
+	padding: 20px;
+	padding-bottom: 0;
+
+	label{
+		span{
+			display: inline-block;
+			vertical-align: middle;
+			@include font-dpr(14px);
+			color: #ADACB1;
+		}
+		.icon{
+			width: 20px;
+			height: 20px;
+			background-color: #ADACB1;
+			cursor: pointer;
+			margin-right: 10px;
+			border-radius: 50%;
+			&:after{
+				content:"";
+				width: 100%;
+				height: 100%;
+				display: inline-block;
+				background-image: url(images/tick.svg);
+				background-repeat: no-repeat;
+				background-position: center;
+				transform: scale(0.7);
+				opacity: 0;
+				transition: all .3s ease-in;
+			}
+		}
+	}
+	input[type="checkbox"]{
+		display: none;
+		&+label{
+			.icon{
+				width: 20px;
+				height: 20px;
+				display: inline-block;
+				background-color: #ADACB1;
+			}
+		}
+		&:checked+label{
+			.icon{
+				background-color: #FFF;
+				&:after{
+					transform: scale(1);
+					opacity: 1;
+					transition: all .5s ease-out;
+				}
+			}
+		}
+	}
+}
+
+// 錯誤提示
+
+.errormessage_wrap{
+	ul{
+		width: 100%;
+		padding: 0px 0.533333rem;
+		li{
+			margin-top: 10px;
+			i{
+				display: inline-block;
+				color: #FFF;
+				width: 0.32rem;
+				height: 0.32rem;
+				vertical-align: middle;
+				margin-right: 5px;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			p{
+				display: inline-block;
+				color: #FFF;
+				vertical-align: middle;
+				@include font-dpr(12px);
+			}
+			&.error{
+				i{
+					background-image: url(images/error-icon.svg);
+				}
+				p{
+					color: #FF274B;
+				}
+			}
+			&.right{
+				i{
+					background-image: url(images/right-icon.svg);
+				}
+				p{
+					color: #B7E370;
+				}
+			}
+		}
+	}
+}
+
+
+// 會員首頁
+
+.member_title--wrap{
+	padding-top: 43px;
+	.member_title{
+		height: 4.0rem;
+		text-align: center;
+		background-image: url(images/member_title_bg.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+
+		.member_avatar{
+			display: inline-block;
+			width: 1.866667rem;
+			height: 1.866667rem;
+			background-color: #FFF;
+			border-radius: 50%;
+			margin-top: 0.4rem;
+			margin-bottom: 5px;
+			box-shadow: 0px 5px 15px rgba(0,0,0,.2);
+			position: relative;
+			text-align: center;
+			border: 1px solid rgba(0,0,0,.1);
+			&:after{
+				content:"";
+				display: inline-block;
+				width: 1.6rem;
+				height: 1.6rem;
+				position: absolute;
+				top: 0.133333rem;
+				left: 0.133333rem;
+				background-image: url(images/member_logo.png);
+				background-size: 100% auto;
+				background-repeat: no-repeat;
+				background-position: center;
+			}
+		}
+		.member_word{
+			p{
+				font-size: 18px;
+				font-weight: bold;
+			}
+			span{
+				@include font-dpr(10px);
+				padding: 0.08rem 0.133333rem;
+				display: inline-block;
+				background-color: #3C7AD2;
+				margin-top: 10px;
+				border-radius: 3px;
+				color: #FFF;
+				font-size: 14px;
+				&.modify{
+				background-image: -webkit-linear-gradient(left, #A97FFF 0%, #6699FF 97%);
+				background-image: -o-linear-gradient(left, #A97FFF 0%, #6699FF 97%);
+				background-image: linear-gradient(to right, #A97FFF 0%, #6699FF 97%);
+					a{
+						color: #FFF;
+					}
+				}
+			}
+		}
+	}
+	.data_wrap{
+		background-color: #FFF;
+		text-align: center;
+		ul{
+			display: inline-block;
+			padding: 0.266667rem 0;
+			li{
+				display: inline-block;
+				padding: 0 0.266667rem;
+				border-right: 1px solid rgba(190, 199, 215, .5);
+				max-width: 33%;
+				white-space: nowrap;
+				overflow: hidden;
+				&:last-child{
+					border-right: 0px;
+				}
+				span{
+					display: inline-block;
+					@include font-dpr(14px);
+					margin-bottom: 6px;
+				}
+				p{
+					@include font-dpr(16px);
+					color: #3C7AD2;
+				}	
+			}
+		}
+	}
+}
+
+// 按鈕區塊
+
+.button__area--wrap{
+
+	.button__area{
+		width: 100%;
+		background-color: #497ACC;
+		margin-top: 10px;
+		li{
+			border-bottom: 1px solid #3B3B3B;
+			background-color: #222;
+			position: relative;
+			font-size: 15px;
+			&:after{
+				content:"";
+				width: 0.4rem;
+				height: 1px;
+				background-color: #222;
+				display: inline-block;
+				position: absolute;
+				bottom: -1px;				
+				left: 0;
+			}
+			&:last-child:after{
+				display: none;
+			}
+			a{
+				@include font-dpr(14px);
+				color: #999;
+				// background-color: #56AAEC;
+				width: 100%;
+				display: inline-block;
+				height: 100%;
+				padding: 0.533333rem 0.4rem;
+			}
+			&.member__top--btn{
+				a{
+					display: inline-block;
+					width: 100%;
+					text-align: center;
+					background-color: #3C7AD2;
+					color: #FFF;
+					@include font-dpr(18px);
+					font-weight: bold;
+					letter-spacing: 2px;
+					&:last-child{
+						background-image: linear-gradient(to right, #A97FFF 0%, #6699FF 97%);
+					}
+				}
+			}
+			.arrow{
+				display: inline-block;
+				width: 9px;
+				height: 100%;
+				position: absolute;
+				right: 0.4rem;
+				background-image: url(images/listbtn_arrow.svg);
+				background-size: 9px 12px;
+				background-repeat: no-repeat;
+				background-position: center;
+				opacity: .5;
+			}
+			p{
+				padding: 0.533333rem 0.4rem;
+				color: #497ACC;
+				font-size: 15px;
+			}
+		}
+	}
+}
+
+// 我的收藏
+
+.video__wrap{
+	&.mylove{
+		padding-top: 46px;
+		.video__inner{
+			&:after{
+				display: none;
+			}
+			.video__text{
+				border-radius: 5px;
+				padding-bottom: 10px;
+				&:after{
+					display: none;
+				}
+				.delete_btn{
+					display: inline-block;
+					padding: 0.266667rem 0.4rem;
+					width: 100%;
+					text-align: center;
+					background-image: -webkit-linear-gradient(left, #FF3537 2%, #FF6393 83%);
+					background-image: -o-linear-gradient(left, #FF3537 2%, #FF6393 83%);
+					background-image: linear-gradient(to right, #FF3537 2%, #FF6393 83%);
+					margin-top: 10px;
+					border-radius: 3px;
+					@include font-dpr(12px);
+					color: #FFF;
+				}
+			}
+		}
+	}
+}
+
+// 三級營銷
+
+.three__wrap{
+	padding: 0 0.533333rem;
+	padding-top: calc(46px + 0.533333rem);
+	h3{
+		color: #FFF;
+		@include font-dpr(14px);
+		line-height: 20px;
+		text-align: justify;
+		letter-spacing: 1px;
+	}
+	.three_img{
+		width: 100%;
+		padding-top: 0.533333rem;
+		img{
+			width: 100%;
+			height: auto;
+		}
+	}
+}
+

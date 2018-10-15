@@ -1,0 +1,167 @@
+.main_top {
+	padding-top: 1.41333rem;
+}
+
+.vipPay_wrap {
+	margin-bottom: .53333rem;
+	padding: .26667rem 0;
+	background-color: #222222;
+
+	li {
+		width: 100%;
+		padding: 0 .26667rem;
+		padding-bottom: .26667rem;
+
+		&:last-child {
+			padding-bottom: 0;
+		}
+	}
+
+	.payBtn {
+		@extend .clearfix;
+		position: relative;
+		height: 70px;
+		padding: 0 .26667rem;
+		border-radius: 10px;
+		background-color: #FFFFFF;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+
+		span,
+		.word,
+		.upgrade {
+			display: inline-block;
+			float: left;
+		}
+
+		.upgrade {
+			margin-top: 16px;
+			padding: .26667rem .4rem;
+			float: right;
+			border-radius: 40px;
+			background-image: linear-gradient(to right, #A97FFF 0%, #6699FF 100%);
+			color: #FFFFFF;
+			font-size: 14px;
+			font-weight: bold;
+			text-shadow: 0 1px 3px rgba(0, 0, 0, .5);
+		}
+
+		span {
+			margin-right: 15px;
+			float: right;
+			color: #3C7AD2;
+			font-size: 45px;
+			line-height: 70px;
+		}
+
+		.word {
+			line-height: 25px;
+
+			p {
+				color: #3C7AD2;
+				font-size: 14px;
+			}
+
+			h3 {
+				margin-top: 12px;
+				color: #666666;
+				font-size: 26px;
+			}
+		}
+
+	}
+}
+
+
+.vipPay_wrap li.active {
+
+	.payBtn {
+		box-shadow: 0 0 0 4px #3C7AD2;
+	}
+}
+
+.selectPay_wrap {
+	padding: .26667rem;
+	background-color: #222222;
+
+	h3 {
+		margin-bottom: .26667rem;
+		color: #FFFFFF;
+		font-size: 18px;
+	}
+
+	.btn {
+		display: inline-block;
+		width: 100%;
+		margin-bottom: 20px;
+		padding: .32rem 0;
+		border: 1px solid #4489EB;
+		border-radius: 5px;
+		background: #3C7AD2;
+		color: #FFFFFF;
+		font-size: 18px;
+		letter-spacing: 1px;
+		text-align: center;
+	}
+}
+
+.selectPay_inner {
+	margin-bottom: .26667rem;
+	border-bottom: 1px solid #666666;
+	font-size: 0;
+
+	li {
+		display: inline-block;
+		width: 50%;
+		margin-bottom: .26667rem;
+		color: #FFFFFF;
+		font-size: 18px;
+
+		p {
+			margin-bottom: .13333rem;
+		}
+
+		select {
+			position: relative;
+			width: 90%;
+			padding: .13333rem;
+			border: 0;
+			background-color: #6699FF;
+			background-image: url('images/select_arr.png');
+			background-repeat: no-repeat;
+			background-position: 95% center;
+			background-size: 10px 5px;
+			color: #FFFFFF;
+			font-size: 14px;
+			appearance: none;
+		}
+	}
+}
+
+.payName {
+	margin-bottom: .53333rem;
+
+	p {
+		display: inline-block;
+		margin-right: .13333rem;
+		color: #FFFFFF;
+		font-size: 14px;
+		vertical-align: middle;
+	}
+
+	input {
+		display: inline-block;
+		width: 50%;
+		padding: .13333rem;
+		font-size: 14px;
+		vertical-align: middle;
+	}
+}
+
+
+
+
+
+
+
+
+
