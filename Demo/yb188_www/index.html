@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<!--[if gte IE 8]>
+	<link href="css/style-ie8.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/ie/html5shiv.min.js"></script>
+	<script type="text/javascript" src="js/ie/respond.min.js"></script>
+<![endif]-->
+</head>
+<body>
+	<div class="box">123</div>
+
+	<script type="text/javascript">
+      if (!Array.prototype.filter)
+      {
+        Array.prototype.filter = function(fun /*, thisp*/)
+        {
+          var len = this.length;
+          if (typeof fun != "function")
+            throw new TypeError();
+
+          var res = new Array();
+          var thisp = arguments[1];
+          for (var i = 0; i < len; i++)
+          {
+            if (i in this)
+            {
+              var val = this[i]; // in case fun mutates this
+              if (fun.call(thisp, val, i, this))
+                res.push(val);
+            }
+          }
+
+          return res;
+        };
+      }
+    </script>
+    <script src="js/ie/tokenizer.js"></script>
+    <script src="js/ie/parser.js"></script>
+    <script src="js/ie/vminpoly.js"></script>
+</body>
+
+</html>

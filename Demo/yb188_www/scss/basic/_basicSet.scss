@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html,
+body {
+	height: 100%;
+	color: #666666;
+	font-family: Helvetica, Tahoma, sans-serif;
+	font-size: 12px;
+	line-height: 1.1;
+}
+
+a {
+	outline: none; //for Firefox
+	color: #444444;
+	text-decoration: none;
+	hlbr: expression(this.onFocus=this.blur()); //for IE
+
+	&:hover { color: #00A1D9;}
+}
+
+table { border-collapse: collapse;}
+input {
+	border: 1px #aaaaaa solid;
+	background-color: #ffffff;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: normal;
+}
+
+//------------- Clear
+.clearfix:after { 
+	display: block;
+	clear: both;
+	content: '';
+}
+
+.clearfix { zoom: 1; }
+.clear {clear: both;}
+
+//------------- Float
+.float-L {float: left;}
+.float-R {float: right;}
+
+//------------- Align
+.align-L {text-align: left;}
+.align-R {text-align: right;}
+.align-C {text-align: center;}
+
+//------------- Display Display 
+.displayB {display: block;}
+.displayI {display: inline;} 
+.displayIB {display: inline-block;}
+.displayF {display: flex;}
+
+//------------- Box Sizing
+.border-box {box-sizing: border-box;}
+
+//------------- Wrap Setting -------------
+
+
+
